@@ -8,7 +8,7 @@ export const register = (username: string, password: string, credentials: Array<
 
     if (currentUserData.isAuth) throw new Error(`You must log out before registering`)
 
-    if (credentials.find(user => user.username === username)) {
+    if (credentials.some(user => user.username === username)) {
         throw new Error(`Username is already registered`)
     }
 
