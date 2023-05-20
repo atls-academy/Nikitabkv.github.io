@@ -1,9 +1,9 @@
-import {IUser} from './user.interface'
-export const whoami = (currentUserData: IUser) => {
-    const {isAuth} = currentUserData
+import {User} from './user.interface'
+export const whoami = (activeUser: User) => {
+    const {isAuth} = activeUser
 
     if (!isAuth) throw new Error('User not authorized')
 
     // eslint-disable-next-line no-console
-    console.log(`User ${currentUserData.username} is authorized`)
+    console.log(`User ${activeUser.username} is authorized`)
 }
