@@ -1,15 +1,27 @@
 import {User} from './user.interface'
-export const login = (username: string, password: string, credentials: Array<User>, activeUser: User) => {
-    if (activeUser.isAuth) throw new Error(`You must log out before logging in as a new user`)
+import {AuthError} from "./authErrors"
 
-    if (!credentials.some(user => user.username === username && user.password === password)) {
-        return (`Invalid login or password`)
+export const login = (username: string, password: string, userList: Array<User>, activeUser: User) : User => {
+    try {
+        if (activeUser.isAuth) throw AuthError.AuthError(`You must log out before logging in as a new user`)
+        if (!username || !password) throw AuthError.ValidationError(`Login or password can not be empty`)
+        if (!userList.some(user => user.username === username && user.password === password)) {
+            throw AuthError.ValidationError(`Invalid login or password`)
+        }
+
+        return {
+            username,
+            password,
+            isAuth: true
+        }
+    } catch (err) {
+        // eslint-disable-next-line no-console
+        console.log(`${err}`)
     }
 
-    // eslint-disable-next-line no-param-reassign
-    activeUser = {
-        username,
-        password,
-        isAuth: true
+    return {
+        username: ``,
+        password: ``,
+        isAuth: false
     }
 }
