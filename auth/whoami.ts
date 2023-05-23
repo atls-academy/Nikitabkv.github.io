@@ -1,12 +1,8 @@
 import {User} from './user.interface'
-import {AuthError} from "./authErrors"
+import {AuthError} from "./auth-errors"
 
 export const whoami = (activeUser: User) => {
-    try {
-        const {isAuth} = activeUser
-        if (!isAuth) throw AuthError.AuthError('User not authorized')
-    } catch (err) {
-        // eslint-disable-next-line no-console
-        console.log(`${err}`)
-    }
+    const {isAuth} = activeUser
+    if (!isAuth) throw AuthError.AuthError('User not authorized')
+    return activeUser
 }
