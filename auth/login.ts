@@ -1,16 +1,16 @@
 import {User} from './user.interface'
 import {AuthError} from "./auth-errors"
+import * as bcrypt from 'bcrypt'
 
-export const login = (username: string, password: string, userList: Array<User>, activeUser: User) : User => {
+export const login = (username: string, password: string, userList: Array<User>, activeUser: User) : string => {
+    if (activeUser === null || activeUser === undefined) throw AuthError.ValidationError(`ActiveUser is: ${typeof activeUser}}`)
     if (activeUser && activeUser.isAuth) throw AuthError.AuthError(`You must log out before logging in as a new user`)
     if (!username || !password) throw AuthError.ValidationError(`Login or password can not be empty`)
-    if (!userList.some(user => user.username === username && user.password === password)) {
-        throw AuthError.ValidationError(`Invalid login or password`)
-    }
 
-    return {
-        username,
-        password,
-        isAuth: true
-    }
+    const currentUserIndex= userList.findIndex(user => user.username === username && bcrypt.compareSync(password, user.password))
+    if (currentUserIndex === -1) throw AuthError.ValidationError('Invalid login or password')
+
+    // eslint-disable-next-line no-param-reassign
+    userList[currentUserIndex].isAuth = true
+    return userList[currentUserIndex].username
 }

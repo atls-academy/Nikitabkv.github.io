@@ -1,8 +1,13 @@
 {
   "compilerOptions": {
     "lib": [
-      "es2016",
+      "ESNext",
       "dom"
-    ]
-  }
+    ],
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "rootDir": "./auth"
+  },
 }
