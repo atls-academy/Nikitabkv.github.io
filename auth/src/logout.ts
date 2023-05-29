@@ -1,5 +1,5 @@
 import {User} from './user.interface'
-import {AuthError} from "./auth-errors"
+import {AuthError} from './auth-errors'
 
 export const logout = (activeUser: User, userList: Array<User>) : string => {
     const {isAuth} = activeUser

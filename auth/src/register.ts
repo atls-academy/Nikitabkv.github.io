@@ -1,6 +1,6 @@
 import {User} from './user.interface'
-import {AuthError} from "./auth-errors"
-import * as bcrypt from 'bcrypt'
+import {AuthError} from './auth-errors'
+import * as bcrypt from 'bcryptjs'
 
 export const register = (username: string, password: string, userList: Array<User>, activeUser: User) : string => {
     if (activeUser === null || activeUser === undefined) throw AuthError.ValidationError(`ActiveUser is: ${typeof activeUser}}`)
