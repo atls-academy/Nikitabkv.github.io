@@ -1,5 +1,5 @@
 import {User} from './user.interface'
-import {AuthError} from "./auth-errors"
+import {AuthError} from './auth-errors'
 
 export const whoami = (activeUser: User) => {
     const {isAuth} = activeUser
