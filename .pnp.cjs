@@ -1843,7 +1843,8 @@ const RAW_RUNTIME_STATE =
       ["workspace:landing/pages/index-page", {\
         "packageLocation": "./landing/pages/index-page/",\
         "packageDependencies": [\
-          ["@landing/index-page", "workspace:landing/pages/index-page"]\
+          ["@landing/index-page", "workspace:landing/pages/index-page"],\
+          ["react", "npm:18.2.0"]\
         ],\
         "linkType": "SOFT"\
       }]\

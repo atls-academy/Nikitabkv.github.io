@@ -1273,6 +1273,8 @@ __metadata:
 "@landing/index-page@workspace:0.0.1, @landing/index-page@workspace:landing/pages/index-page":
   version: 0.0.0-use.local
   resolution: "@landing/index-page@workspace:landing/pages/index-page"
+  dependencies:
+    react: "npm:^18.2.0"
   languageName: unknown
   linkType: soft
 
