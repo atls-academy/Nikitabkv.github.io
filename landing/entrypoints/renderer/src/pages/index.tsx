@@ -1,5 +1,1 @@
-import React from "react";
-
-export default function Page() {
-    return <h1>Hello, Next.js!s</h1>
-}
+export { default } from '@landing/index-page'

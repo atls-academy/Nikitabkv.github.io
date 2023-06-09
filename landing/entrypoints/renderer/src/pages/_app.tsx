@@ -1,11 +1,7 @@
-import React from "react"
+import React from 'react'
 
-const MyApp = ({ Component, pageProps }) => {
-    return (
-        <>
+const MyApp = ({ Component, pageProps }) => (
             <Component {...pageProps} />
-        </>
-    )
-}
+)
 
 export default MyApp

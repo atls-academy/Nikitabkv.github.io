@@ -16,6 +16,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@landing/index-page": "workspace:0.0.1",
     "@types/node": "20.2.5",
     "@types/react": "^18",
     "@types/react-dom": "^18",

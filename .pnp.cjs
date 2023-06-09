@@ -20,11 +20,16 @@ const RAW_RUNTIME_STATE =
     {\
       "name": "@landing/renderer-entrypoin",\
       "reference": "workspace:landing/entrypoints/renderer"\
+    },\
+    {\
+      "name": "@landing/index-page",\
+      "reference": "workspace:landing/pages/index-page"\
     }\
   ],\
   "enableTopLevelFallback": true,\
   "ignorePatternData": "(^(?:\\\\.yarn\\\\/sdks(?:\\\\/(?!\\\\.{1,2}(?:\\\\/|$))(?:(?:(?!(?:^|\\\\/)\\\\.{1,2}(?:\\\\/|$)).)*?)|$))$)",\
   "fallbackExclusionList": [\
+    ["@landing/index-page", ["workspace:landing/pages/index-page"]],\
     ["@landing/renderer-entrypoin", ["workspace:landing/entrypoints/renderer"]],\
     ["auth", ["workspace:auth"]],\
     ["template", ["workspace:."]]\
@@ -1834,6 +1839,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@landing/index-page", [\
+      ["workspace:landing/pages/index-page", {\
+        "packageLocation": "./landing/pages/index-page/",\
+        "packageDependencies": [\
+          ["@landing/index-page", "workspace:landing/pages/index-page"]\
+        ],\
+        "linkType": "SOFT"\
+      }]\
+    ]],\
     ["@landing/renderer-entrypoin", [\
       ["workspace:landing/entrypoints/renderer", {\
         "packageLocation": "./landing/entrypoints/renderer/",\
@@ -1841,6 +1855,7 @@ const RAW_RUNTIME_STATE =
           ["@landing/renderer-entrypoin", "workspace:landing/entrypoints/renderer"],\
           ["@emotion/react", "virtual:22799c130980dc5e56571a52b15d1a91cf91acff46b6391aef077d06170b3a62bd5fb14ca09a16f60be9a2b4b20d5c476635c0fe5f0f49538d9b9004ab5ed6df#npm:11.11.1"],\
           ["@emotion/styled", "virtual:22799c130980dc5e56571a52b15d1a91cf91acff46b6391aef077d06170b3a62bd5fb14ca09a16f60be9a2b4b20d5c476635c0fe5f0f49538d9b9004ab5ed6df#npm:11.11.0"],\
+          ["@landing/index-page", "workspace:landing/pages/index-page"],\
           ["@types/node", "npm:20.2.5"],\
           ["@types/react", "npm:18.2.8"],\
           ["@types/react-dom", "npm:18.2.4"],\
