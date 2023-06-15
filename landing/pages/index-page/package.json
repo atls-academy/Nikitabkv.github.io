@@ -2,6 +2,12 @@
   "name": "@landing/index-page",
   "version": "0.0.1",
   "main": "src/index.ts",
+  "dependencies": {
+    "@landing/courses-fragment": "workspace:0.0.1",
+    "@landing/faq-fragment": "workspace:0.0.1",
+    "@landing/hero-fragment": "workspace:0.0.1",
+    "@landing/process-fragment": "workspace:0.0.1"
+  },
   "devDependencies": {
     "react": "^18.2.0"
   },

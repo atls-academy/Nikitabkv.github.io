@@ -4,7 +4,8 @@
   "license": "BSD-3-Clause",
   "workspaces": [
     "auth",
-    "landing/**/*"
+    "landing/**/*",
+    "ui/**/*"
   ],
   "scripts": {
     "build": "tsc"
