@@ -4,11 +4,11 @@ import {Layout, Box, Column} from '@ui/layout'
 import {Text} from '@ui/text'
 
 import logo from '../../../public/logo.svg'
-import {About} from "./about/about.component";
+import {About} from "./about";
 import {TextComponent} from "./text";
 
 const LandingHero = () => (
-    <Box background={'#666666'} height='1800px'>
+    <Box background='#666666' height='1800px'>
         <Column width='100%' alignItems='center' justifyContent='center'>
             <Column width='100%'>
                 <Layout className="header" justifyContent='space-between'>
@@ -17,20 +17,20 @@ const LandingHero = () => (
                     </Layout>
                     <Layout width='860px' alignItems='center' justifyContent='center'>
                         <Layout justifyContent='center' width='200px'>
-                            <Text color={'white'}>ACADEMY</Text>
+                            <Text color='white'>ACADEMY</Text>
                         </Layout>
                         <Layout justifyContent='center' width='200px'>
-                            <Text color={'white'}>КУРСЫ</Text>
+                            <Text color='white'>КУРСЫ</Text>
                         </Layout>
                         <Layout justifyContent='center' width='200px'>
-                            <Text color={'white'}>ОБУЧЕНИЕ</Text>
+                            <Text color='white'>ОБУЧЕНИЕ</Text>
                         </Layout>
                         <Layout justifyContent='center' width='200px'>
-                            <Text color={'white'}>FAQ</Text>
+                            <Text color='white'>FAQ</Text>
                         </Layout>
                     </Layout>
                     <Layout margin='0px 35px 0px 35px' alignItems='center'>
-                        <Text color={'white'} fontSize={'18px'}>Курсы</Text>
+                        <Text color='white' fontSize='18px'>Курсы</Text>
                     </Layout>
                 </Layout>
             </Column>
