@@ -5,7 +5,7 @@ import {Box} from '@ui/layout'
 
 import {DividerProps} from './divider.interface'
 
-const Divider: FC<DividerProps> = ({weight, color}) => (
+const Divider: FC<DividerProps> = ({width, weight, color}) => (
     <Box width='100%' height={weight} backgroundColor={color} />
 )
 
