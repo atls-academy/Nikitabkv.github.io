@@ -3,41 +3,52 @@ import React from "react";
 import {Box, Layout, Column} from '@ui/layout'
 import {Text} from '@ui/text'
 import {Divider} from '@ui/divider'
+import {ListItem} from "./list-item";
+
+const QUESTIONS_DATA = [
+    {
+        id: 1,
+        text: 'Подойдёт ли мне профессия?',
+        openText: 'test'
+    },
+    {
+        id: 2,
+        text: 'Подойдёт ли мне профессия?',
+        openText: 'test'
+    },
+    {
+        id: 3,
+        text: 'Подойдёт ли мне профессия?',
+        openText: 'test'
+    },
+    {
+        id: 4,
+        text: 'Подойдёт ли мне профессия?',
+        openText: 'test'
+    },
+    {
+        id: 5,
+        text: 'Подойдёт ли мне профессия?',
+        openText: 'test'
+    },
+    {
+        id: 6,
+        text: 'Подойдёт ли мне профессия?',
+        openText: 'test'
+    }
+]
 
 const LandingFaq = () => (
-    <Box background='#FFFFFF' flexWrap='wrap' justifyContent='center'>
-        <Layout width='1610px' justifyContent='space-between' alignItems='center' marginLeft='150px' marginTop='160px' marginBottom='80px'>
-            <Text fontSize='96px'>Вопросы и ответы</Text>
-            <Text fontSize='20px'>Задать вопрос</Text>
+    <Box background='#FFFFFF' justifyContent='center'>
+        <Layout width={['343px', '1610px']} justifyContent='space-between' alignItems='center' marginLeft={['0', '150px']} marginTop={['80px', '160px']} marginBottom={['0', '80px']} flexWrap='wrap'>
+            <Text fontSize={['32px', '96px']}>Вопросы и ответы</Text>
+            <Layout order={[`1`, `0`]}>
+                <Text fontSize='20px'>Задать вопрос</Text>
+            </Layout>
+            <Column flexBasis='100%' height={['333px','757px']} marginTop={['30px', '80px']} marginBottom={'60px'}>
+                {QUESTIONS_DATA.map((item) => <ListItem data={item} key={item.id} isLastItem={item.id === QUESTIONS_DATA.length}/>)}
+            </Column>
         </Layout>
-        <Column width='1610px' marginLeft='150px' marginBottom='160px'>
-
-            <Layout justifyContent='space-between' flexWrap='wrap' alignItems='flex-start'>
-                <Divider weight={1} color='black'/>
-                <Layout alignItems='center'>
-                    <Text fontSize='24px' margin='40px 26px 40px 0'>+</Text>
-                    <Text fontSize='32px' margin='40px 40px 40px 0'>Подойдёт ли мне профессия?</Text>
-                </Layout>
-            </Layout>
-
-            <Layout justifyContent='space-between' flexWrap='wrap' alignItems='flex-start'>
-                <Divider weight={1} color='black'/>
-                <Layout alignItems='center'>
-                    <Text fontSize='24px' margin='40px 26px 40px 0'>+</Text>
-                    <Text fontSize='32px' margin='40px 40px 40px 0'>Подойдёт ли мне профессия?</Text>
-                </Layout>
-            </Layout>
-
-            <Layout justifyContent='space-between' flexWrap='wrap' alignItems='flex-start'>
-                <Divider weight={1} color='black'/>
-                <Layout alignItems='center'>
-                    <Text fontSize='24px' margin='40px 26px 40px 0'>+</Text>
-                    <Text fontSize='32px' margin='40px 40px 40px 0'>Подойдёт ли мне профессия?</Text>
-                </Layout>
-                <Divider weight={1} color='black'/>
-            </Layout>
-
-        </Column>
     </Box>
 )
 

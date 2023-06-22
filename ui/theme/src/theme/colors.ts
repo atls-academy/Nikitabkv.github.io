@@ -1,5 +1,6 @@
-export const colors = {
-    text: {
-        white: 'rgba(255, 255, 255, 1)',
-    }
+const colors = {
+    primary: 'rgba(255, 255, 255, 1)',
+    second: 'rgba(0, 0, 0, 1)',
 }
+
+export { colors }
