@@ -3,6 +3,7 @@ import React from "react";
 import {Box, Layout, Column} from '@ui/layout'
 import {Text} from '@ui/text'
 import {Divider} from '@ui/divider'
+import {PlugIcon} from '@ui/icon'
 
 import {ListItem} from './list-item'
 
@@ -41,7 +42,9 @@ const LandingProcess = () => (
     <Box background='#666666' width='100%' height={['1490px', '2648px']} justifyContent='center' flexDirection='column' alignItems='center'>
         <Column height='728px' marginTop={['64px', '120px']} marginBottom={['32px', '224px']}>
             <Column width={['375px', '1760px']} justifyContent='center' alignSelf='center' alignItems='center'>
-                <Box position='absolute' width='400px' height='400px' background='rgba(66,66,66,0.95)' alignSelf='center' display={['none', 'flex']}/>
+                <Box position='absolute' width='400px' height='400px' background='rgba(66,66,66,0.95)' alignSelf='center' display={['none', 'flex']}>
+                    <PlugIcon width={'100%'} height={'100%'}/>
+                </Box>
                 {LIST_DATA.map((item) => <ListItem data={item} isLastItem={LIST_DATA.length === item.id}/> )}
             </Column>
         </Column>
@@ -72,7 +75,9 @@ const LandingProcess = () => (
         <Column width={['335px', '960px']} alignItems='center' justifyContent='flex-start' marginTop={['56px', '224px']}>
             <Text color='white' fontSize={['11px', '14px']}>ПРОЦЕСС СОЗДАНИЯ</Text>
             <Text height='92px' color='white' fontSize={['24px', '40px']} textAlign='center' marginTop={['16px', '24px']} marginBottom={['24px', '50px']}>Любой процесс перестаёт быть сложным, когда знаешь как он протекает</Text>
-            <Box width={['155px', '960px']} height={['323px', '633px']} background='rgba(66,66,66,0.95)'></Box>
+            <Box width={['155px', '960px']} height={['323px', '633px']} background='rgba(66,66,66,0.95)'>
+                тут должен быть слайдер
+            </Box>
         </Column>
     </Box>
 )

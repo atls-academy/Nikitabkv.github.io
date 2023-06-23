@@ -1,10 +1,15 @@
 import React from "react";
 
 import {Column} from '@ui/layout'
+import {GitHubIcon, TelegramIcon, EmailIcon} from '@ui/icon'
 
 const Social = () => (
-    <Column width={['100%', '56px']} height={['44px', '200px']} marginBottom={['20px', '0']} marginTop={['24px', '0']}>
-        social
+    <Column width={['100%', '56px']} height={['44px', '495px']}
+            marginBottom={['24px', '0']} marginTop={['24px', '0']} paddingTop={['0', '275px']}
+            justifyContent='space-around' flexDirection={['row', 'column']} alignItems={['center', 'flex-start']}>
+        <GitHubIcon width={24} height={24}/>
+        <TelegramIcon width={24} height={24}/>
+        <EmailIcon width={24} height={24}/>
     </Column>
 )
 

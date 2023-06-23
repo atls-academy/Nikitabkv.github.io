@@ -13,7 +13,7 @@ const ListItem = ({data, isLastItem}) => {
                 <Text fontSize={['18px', '24px']} color='white' marginRight={['12px', '32px']}>{id}</Text>
                 <Text fontSize={['24px', '40px']} color='white'>{title}</Text>
             </Layout>
-            <Text width='650px' fontSize={['14px', '24px']} color='white' marginTop={['8px', '48px']} marginBottom={['28px', `${isLastItem ? '' : '48px'}`]}>
+            <Text width='650px' fontSize={['14px', '24px']} color='white' marginTop={['8px', '48px']} marginBottom={['28px', '48px']}>
                 {text}
             </Text>
             {isLastItem ? '' : <Divider weight={1} color='white'/>}

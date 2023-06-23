@@ -3,6 +3,7 @@ import React from "react";
 import {Box, Column, Layout} from '@ui/layout'
 import {Text} from '@ui/text'
 import {Divider} from '@ui/divider'
+import {PlugIcon} from '@ui/icon'
 
 const LandingCourses = () => (
     <Box margin={['64px 20px', '0 0 0 170px']} background='#FFFFFF' height={['auto', '1480px']} justifyContent='center' alignItems={['flex-start', 'center']}>
@@ -46,7 +47,9 @@ const LandingCourses = () => (
                         курировать работу каждого студента.
                     </Text>
 
-                    <Box order={['2', '0']} alignSelf={['flex-start', 'center']} width={['64px', '240px']} height={['64px', '240px']} margin={['0', '74px 0px 62px 0px']} background='rgba(66,66,66,0.95)'/>
+                    <Box order={['2', '0']} alignSelf={['flex-start', 'center']} width={['64px', '240px']} height={['64px', '240px']} margin={['0', '74px 0px 62px 0px']} background='rgba(66,66,66,0.95)'>
+                        <PlugIcon width='100%' height='100%' />
+                    </Box>
 
                     <Text fontSize={['56px', '64px']} paddingBottom={['0', '8px']}>5</Text>
                     <Text fontSize={['12px', '14px']} width={['131px', '188px']} marginLeft={['12px', '0']} marginRight={['auto', '0']}>студентов обучаются в одной практической группе</Text>

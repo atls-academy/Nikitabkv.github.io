@@ -2,7 +2,6 @@ import React from "react";
 
 import {Box, Layout, Column} from '@ui/layout'
 import {Text} from '@ui/text'
-import {Divider} from '@ui/divider'
 import {ListItem} from "./list-item";
 
 const QUESTIONS_DATA = [
