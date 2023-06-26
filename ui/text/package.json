@@ -6,8 +6,8 @@
     "@atls-ui-parts/text": "0.0.10"
   },
   "devDependencies": {
-    "@emotion/react": "11.11.0",
-    "@emotion/styled": "11.11.0",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },

@@ -38,11 +38,11 @@ const QUESTIONS_DATA = [
 ]
 
 const LandingFaq = () => (
-    <Box background='#FFFFFF' justifyContent='center'>
-        <Layout width={['343px', '1610px']} justifyContent='space-between' alignItems='center' marginLeft={['0', '150px']} marginTop={['80px', '160px']} marginBottom={['0', '80px']} flexWrap='wrap'>
-            <Text fontSize={['32px', '96px']}>Вопросы и ответы</Text>
+    <Box background={'white'} justifyContent='center'>
+        <Layout width={['343px', '1610px']} height={['483px', 'auto']} justifyContent='space-between' alignItems='center' marginLeft={['0', '150px']} marginTop={['80px', '160px']} marginBottom={['80px', '80px']} flexWrap='wrap'>
+            <Text fontSize={['huge', 'XL']}>Вопросы и ответы</Text>
             <Layout order={[`1`, `0`]}>
-                <Text fontSize='20px'>Задать вопрос</Text>
+                <Text fontSize='increased'>Задать вопрос</Text>
             </Layout>
             <Column flexBasis='100%' height={['333px','757px']} marginTop={['30px', '80px']} marginBottom={'60px'}>
                 {QUESTIONS_DATA.map((item) => <ListItem data={item} key={item.id} isLastItem={item.id === QUESTIONS_DATA.length}/>)}
