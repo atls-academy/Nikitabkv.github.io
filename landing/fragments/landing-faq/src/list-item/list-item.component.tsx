@@ -12,7 +12,7 @@ const ListItem = ({data, isLastItem}) => {
         <Layout justifyContent='space-between' flexWrap='wrap' alignItems='flex-start'>
 
             <Layout display={['none', 'contents']}>
-                <Divider weight={1} color={'black'} />
+                <Divider weight={1} color='black' />
             </Layout>
 
             <Layout width='100%' alignItems='center' flexDirection={['row-reverse', 'row']} justifyContent={['space-between', 'flex-start']}>

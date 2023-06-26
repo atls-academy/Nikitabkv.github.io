@@ -4,12 +4,11 @@ import {Layout, Box, Column} from '@ui/layout'
 import {Text} from '@ui/text'
 import {LogoIcon} from '@ui/icon'
 
-import logo from '../../../entrypoints/renderer/src/public/logo.svg'
 import {About} from "./about";
 import {TextComponent} from "./text";
 
 const LandingHero = () => (
-    <Box background={'gray'} height={['996px', '1670px']}>
+    <Box background='gray' height={['996px', '1670px']}>
         <Column width='100%' alignItems='center' justifyContent='center'>
             <Column width='100%' height={['auto', '86%']}>
                 <Layout justifyContent={['center', 'space-between']} marginBottom={['80px', '0']}>
