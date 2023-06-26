@@ -13,7 +13,7 @@ const LandingHero = () => (
             <Column width='100%' height={['auto', '86%']}>
                 <Layout justifyContent={['center', 'space-between']} marginBottom={['80px', '0']}>
                     <Layout margin={['23px 0 23px 0', '40px 0 35px 35px']}>
-                        <LogoIcon width='56' height='56' alt='logo'/>
+                        <LogoIcon width='56' height='56'/>
                     </Layout>
                     <Layout width='860px' alignItems='center' justifyContent='center' display={['none', 'flex']}>
                         <Layout justifyContent='center' width='200px'>

@@ -45,22 +45,18 @@ const LandingProcess = () => (
                 {LIST_DATA.map((item) => <ListItem data={item} isLastItem={LIST_DATA.length === item.id}/> )}
             </Column>
         </Column>
-
         <Column width='100%' height={['auto', '482px']}>
             <Divider weight={1} color='white'/>
-
             <Layout marginTop={['36px', '64px']} marginBottom={['36px', '64px']}>
                 <Text fontSize={['hugePlus', 'largest']} color='white' overflow='hidden' whiteSpace='nowrap'>
                     JAVASCRIPT — HTML — CSS — SASS — VANILLA JS — JADE — JAVASCRIPT —
                 </Text>
             </Layout>
-
             <Layout marginBottom={['36px', '64px']}>
                 <Text fontSize={['hugePlus', 'largest']} color='white' overflow='hidden' whiteSpace='nowrap'>
                     ATOM — FIGMA — GITHUB — ATOM — FIGMA — GITHUB — ATOM — FIGMA — GITHUB —
                 </Text>
             </Layout>
-
             <Divider weight={1} color='white'/>
         </Column>
 
@@ -69,10 +65,10 @@ const LandingProcess = () => (
             <Text height='92px' width={['auto', '890px']} color='white' fontSize={['increasedPlus', 'mediumHuge']} textAlign='center' marginTop={['16px', '24px']} marginBottom={['24px', '50px']}>Любой процесс перестаёт быть сложным, когда знаешь как он протекает</Text>
             <Box width={['auto', '960px']} height={['400px', '633px']}>
                 <Column justifyContent='space-between' alignItems='center'>
-                <Box width={['155px', '960px']} height={['323px', '516px']} padding='12px' background='white'>
-                    <Box width={['155px', '936px']} background='black' overflow='hidden' alignItems='center' flexDirection='column'>
+                <Box width={['155px', '960px']} height={['323px', '516px']} padding='12px' background={['', 'white']} border={['2px', '']}>
+                    <Box width={['155px', '936px']} background={['', 'black']} overflow='hidden' alignItems='center' flexDirection='column'>
                         <Text color='white'>Title and toolbar</Text>
-                        <PlugIcon width={['139px', '720px']} height={['339px', '540px']} overflow='none'/>
+                        <PlugIcon width='720px' height='540px'/>
                     </Box>
                 </Box>
                 <Layout width={['335px', '960px']} justifyContent='space-between' alignItems='center'>
@@ -83,7 +79,6 @@ const LandingProcess = () => (
                 </Column>
             </Box>
         </Column>
-
     </Box>
 )
 
