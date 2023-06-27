@@ -4,22 +4,20 @@
   "license": "BSD-3-Clause",
   "main": "src/index.ts",
   "dependencies": {
-    "@atls-ui-parts/layout": "^0.0.2",
-    "styled-system": "^5.1.5"
+    "@atls-ui-parts/layout": "^0.0.2"
   },
   "devDependencies": {
     "@emotion/react": "^11.11",
     "@emotion/styled": "^11.11",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "@types/styled-system": "^5",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "styled-system": "5.1.5"
   },
   "peerDependencies": {
     "@emotion/react": "*",
     "@emotion/styled": "*",
     "react": "*",
-    "react-dom": "*"
+    "react-dom": "*",
+    "styled-system": "*"
   }
 }

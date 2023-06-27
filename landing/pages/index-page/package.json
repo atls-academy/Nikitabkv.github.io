@@ -9,9 +9,13 @@
     "@landing/process-fragment": "workspace:0.0.1"
   },
   "devDependencies": {
-    "react": "^18.2.0"
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "peerDependencies": {
-    "react": "*"
+    "react": "*",
+    "react-dom": "*"
   }
 }

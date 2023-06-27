@@ -1,12 +1,12 @@
-import React from 'react'
-import {FC} from 'react'
+import React            from 'react'
+import { FC }           from 'react'
 
-import {Box} from '@ui/layout'
+import { Box }          from '@ui/layout'
 
-import {DividerProps} from './divider.interface'
+import { DividerProps } from './divider.interface'
 
-const Divider: FC<DividerProps> = ({width, weight, color}) => (
-    <Box width='100%' height={weight} backgroundColor={color} />
+const Divider: FC<DividerProps> = ({ width, weight, color }) => (
+  <Box width='100%' height={weight} backgroundColor={color} />
 )
 
-export {Divider}
+export { Divider }

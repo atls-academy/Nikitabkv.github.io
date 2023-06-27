@@ -1,5 +1,5 @@
 export interface DividerProps {
-    width?: string
-    color?: string
-    weight?: number
+  width?: string
+  color?: string
+  weight?: number
 }

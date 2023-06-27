@@ -1,15 +1,12 @@
 {
   "compilerOptions": {
     "jsx": "react",
-    "lib": [
-      "ESNext",
-      "dom"
-    ],
+    "lib": ["ESNext", "dom"],
     "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true,
     "moduleResolution": "node",
     "module": "esnext",
-    "outDir": "./dist",
+    "outDir": "./dist"
   },
   "include": ["auth/**/*", "landing/**/*"]
 }
