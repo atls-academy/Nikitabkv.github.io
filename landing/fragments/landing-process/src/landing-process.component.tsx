@@ -42,7 +42,7 @@ const LandingProcess = () => (
                 <Box position='absolute' width='400px' height='400px' background='plug' alignSelf='center' display={['none', 'flex']}>
                     <PlugIcon width='100%' height='100%'/>
                 </Box>
-                {LIST_DATA.map((item) => <ListItem data={item} isLastItem={LIST_DATA.length === item.id}/> )}
+                {LIST_DATA.map((item) => <ListItem data={item} key={item.id} isLastItem={LIST_DATA.length === item.id}/> )}
             </Column>
         </Column>
         <Column width='100%' height={['auto', '482px']}>
@@ -59,7 +59,6 @@ const LandingProcess = () => (
             </Layout>
             <Divider weight={1} color='white'/>
         </Column>
-
         <Column width={['335px', '960px']} alignItems='center' justifyContent='flex-start' marginTop={['56px', '224px']}>
             <Text color='white' fontSize={['11px', 'regular']}>ПРОЦЕСС СОЗДАНИЯ</Text>
             <Text height='92px' width={['auto', '890px']} color='white' fontSize={['increasedPlus', 'mediumHuge']} textAlign='center' marginTop={['16px', '24px']} marginBottom={['24px', '50px']}>Любой процесс перестаёт быть сложным, когда знаешь как он протекает</Text>
@@ -83,5 +82,3 @@ const LandingProcess = () => (
 )
 
 export {LandingProcess}
-
-/// НАДО ДОБАВИТЬ KEY
