@@ -10,49 +10,58 @@ import { About }         from './about'
 import { TextComponent } from './text'
 
 const LandingHero = () => (
-  <Box background='gray' height={['996px', '1670px']}>
+  <Box background='gray'>
     <Column width='100%' alignItems='center' justifyContent='center'>
-      <Column width='100%' height={['auto', '86%']}>
-        <Layout justifyContent={['center', 'space-between']} marginBottom={['80px', '0']}>
-          <Layout margin={['23px 0 23px 0', '40px 0 35px 35px']}>
-            <LogoIcon width='56' height='56' />
+      <Layout width='100%' flexBasis={[80, 120]} justifyContent={['center', 'space-between']}>
+          <Layout flexBasis={[40, 96]} alignItems='center'>
+            <Layout flexBasis={[0, 40]}/>
+            <LogoIcon width={56} height={56} />
           </Layout>
+
           <Layout
             width='860px'
             alignItems='center'
-            justifyContent='center'
+            justifyContent='space-between'
             display={['none', 'flex']}
           >
-            <Layout justifyContent='center' width='200px'>
+            <Layout flexBasis={200} justifyContent='center'>
               <Text fontSize={['medium']} color='white'>
                 ACADEMY
               </Text>
             </Layout>
-            <Layout justifyContent='center' width='200px'>
+            <Layout flexBasis={200} justifyContent='center'>
               <Text fontSize={['medium']} color='white'>
                 КУРСЫ
               </Text>
             </Layout>
-            <Layout justifyContent='center' width='200px'>
+            <Layout flexBasis={200} justifyContent='center'>
               <Text fontSize={['medium']} color='white'>
                 ОБУЧЕНИЕ
               </Text>
             </Layout>
-            <Layout justifyContent='center' width='200px'>
+            <Layout flexBasis={200} justifyContent='center'>
               <Text fontSize={['medium']} color='white'>
                 FAQ
               </Text>
             </Layout>
           </Layout>
-          <Layout margin='0px 35px 0px 35px' alignItems='center' display={['none', 'flex']}>
+
+          <Layout flexBasis={94} alignItems='center' display={['none', 'flex']}>
             <Text color='white' fontSize='18px'>
               Курсы
             </Text>
           </Layout>
-        </Layout>
-      </Column>
-      <About />
-      <TextComponent />
+      </Layout>
+      <Layout width='100%'>
+        <Layout flexBasis={[20, 230]}/>
+        <Column>
+        <Layout flexBasis={[40, 412]}/>
+        <About />
+        <Layout flexBasis={[100, 210]}/>
+        <TextComponent />
+        <Layout flexBasis={[64, 160]}/>
+        </Column>
+      </Layout>
     </Column>
   </Box>
 )

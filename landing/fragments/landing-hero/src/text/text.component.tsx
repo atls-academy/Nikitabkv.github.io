@@ -3,6 +3,7 @@ import React        from 'react'
 import { PlugIcon } from '@ui/icon'
 import { Box }      from '@ui/layout'
 import { Column }   from '@ui/layout'
+import { Layout }        from '@ui/layout'
 import { Text }     from '@ui/text'
 
 const TextComponent = () => (
@@ -10,7 +11,6 @@ const TextComponent = () => (
     <Text
       color='white'
       fontSize={['increased', 'veryHuge']}
-      marginTop={['64px', '210px']}
       display='block'
       lineHeight='140%'
     >
@@ -19,7 +19,7 @@ const TextComponent = () => (
         <br />
       </Text>
       не снижается
-      <Box display={['none', 'inline']} padding='0 18px' position='relative' top='6px'>
+      <Box display={['none', 'inline']} position='relative' top='6px'>
         <PlugIcon />
       </Box>
       <Text fontSize={['increased', 'veryHuge']} display={['inline', 'none']}>
@@ -30,19 +30,19 @@ const TextComponent = () => (
         <br />
       </Text>{' '}
       мало
-      <Box display={['none', 'inline']} padding='0 18px' position='relative' top='6px'>
+      <Box display={['none', 'inline']} position='relative' top='6px'>
         <PlugIcon />
       </Box>
     </Text>
+      <Layout flexBasis={[17, 40]}/>
     <Text
       color='white'
       fontSize={['increased', 'veryHuge']}
-      marginTop={['40px']}
       display='block'
       lineHeight='140%'
     >
       Atlantis Academy обучает и формирует инженеров и архитекторов, а не программистов и дизайнеров{' '}
-      <Box display={['none', 'inline']} padding='0 18px' position='relative' top='6px'>
+      <Box display={['none', 'inline']} position='relative' top='6px'>
         <PlugIcon />
       </Box>
     </Text>

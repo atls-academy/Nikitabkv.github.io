@@ -1,4 +1,4 @@
 export interface IconProps {
-  width?: string | number
-  height?: string | number
+  width?: string | number | number[]
+  height?: string | number | number[]
 }

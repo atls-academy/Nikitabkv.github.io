@@ -46,8 +46,8 @@ const LandingCourses = () => (
 
       <Layout flexBasis={[56, 0]} width='100%'/>
 
-      <Layout flexBasis={[706, 734]} flexDirection={['column-reverse', 'row']} justifyContent='space-between'>
-          <Column height={['auto', '688px']}>
+      <Layout flexBasis={[706, 734]} flexDirection={['column-reverse', 'row']} justifyContent={['space-between', 'flex-start']}>
+        <Column height={['auto', '688px']}>
 
             <Layout flexBasis={[56, 40]} width='100%'/>
 
@@ -58,11 +58,11 @@ const LandingCourses = () => (
 
               <Layout flexBasis={[12, 16]} width='100%'/>
 
-              <Text fontSize={['extra', 'increased']} width={['338px', '694px']} lineHeight={['160%', '140%']}>
+              <Text fontSize={['extra', 'increased']} width={['338px', '694px']} lineHeight={['160%', '140%']} display='block'>
                 Вы изучите фундаментальные знания в ИТ и прокачаетесь в
-                <Text display={['none', 'inline-flex']}>направлении</Text> программирования.
+                <Text fontSize='increased' lineHeight='160%' display={['none', 'inline-flex']}>направлении</Text> программирования.
                 Получите востребованную профессию и возможность открыть бизнес
-                <Text display={['none', 'inline-flex']}> в сфере информационных технологий </Text>
+                <Text fontSize='increased' lineHeight='160%' display={['none', 'inline-flex']}> в сфере информационных технологий </Text>
               </Text>
 
             <Layout flexBasis={[52, 120]} width='100%'/>
@@ -74,11 +74,11 @@ const LandingCourses = () => (
 
               <Layout flexBasis={[12, 16]} width='100%'/>
 
-              <Text fontSize={['extra', 'increased']} width={['338px', '694px']} lineHeight={['160%', '140%']}>
+              <Text fontSize={['extra', 'increased']} width={['338px', '694px']} lineHeight={['160%', '140%']} display='block'>
                 Вы изучите фундаментальные знания в ИТ и прокачаетесь в
-                <Text display={['none', 'inline-flex']}>направлении</Text> программирования.
+                <Text fontSize='increased' lineHeight='160%' display={['none', 'inline-flex']}>направлении</Text> программирования.
                 Получите востребованную профессию и возможность открыть бизнес
-                <Text display={['none', 'inline-flex']}> в сфере информационных технологий </Text>
+                <Text fontSize='increased' lineHeight='160%' display={['none', 'inline-flex']}> в сфере информационных технологий </Text>
               </Text>
 
             <Layout flexBasis={[36, 112]} width='100%'/>
@@ -98,6 +98,8 @@ const LandingCourses = () => (
             </Layout>
 
           </Column>
+
+        <Layout flexBasis={[0, 40]}/>
 
         <Column flexBasis={['192px', '410px']} height={['auto', 'auto']} alignItems='flex-start'>
 
