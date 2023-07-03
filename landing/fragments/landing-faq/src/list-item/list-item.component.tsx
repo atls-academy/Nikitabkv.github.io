@@ -28,6 +28,7 @@ const ListItem = ({ data, isLastItem }) => {
         <Text fontSize={['normal', 'increasedPlus']}>
           <PlusIcon />
         </Text>
+        <Layout flexBasis={24} display={['none', 'flex']} />
         <Text fontSize={['increased', 'huge']} lineHeight={['140%']}>
           {text}
         </Text>
