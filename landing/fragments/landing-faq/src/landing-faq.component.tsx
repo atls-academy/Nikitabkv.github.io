@@ -41,32 +41,31 @@ const QUESTIONS_DATA = [
 ]
 
 const LandingFaq = () => (
-  <Box background='white' justifyContent='center'>
-    <Layout
-      width={['343px', '1610px']}
-      height={['483px', 'auto']}
-      justifyContent='space-between'
-      alignItems='center'
-      marginLeft={['0', '150px']}
-      marginTop={['80px', '160px']}
-      marginBottom={['80px', '80px']}
-      flexWrap='wrap'
-    >
-      <Text fontSize={['huge', 'XL']}>Вопросы и ответы</Text>
-      <Layout order={[`1`, `0`]}>
-        <Text fontSize='increased'>Задать вопрос</Text>
-      </Layout>
-      <Column
-        flexBasis='100%'
-        height={['333px', '757px']}
-        marginTop={['30px', '80px']}
-        marginBottom='60px'
+  <Box background='white' justifyContent={['center', 'flex-start']}>
+    <Layout flexBasis={[0, 230]} display={['none', 'flex']} />
+    <Column>
+      <Layout flexBasis={[80, 160]} />
+      <Layout
+        width={['343px', '1610px']}
+        flexBasis={['483px', 'auto']}
+        justifyContent='space-between'
+        alignItems='center'
+        flexWrap='wrap'
       >
-        {QUESTIONS_DATA.map((item) => (
-          <ListItem data={item} key={item.id} isLastItem={item.id === QUESTIONS_DATA.length} />
-        ))}
-      </Column>
-    </Layout>
+        <Text fontSize={['huge', 'XL']}>Вопросы и ответы</Text>
+        <Column order={[`1`, `0`]} height='auto'>
+          <Layout flexBasis={[44, 0]} />
+          <Text fontSize='increased'>Задать вопрос</Text>
+          <Layout flexBasis={[80, 0]} />
+        </Column>
+        <Column flexBasis='100%'>
+          <Layout flexBasis={[0, 80]} display={['none', 'flex']} />
+          {QUESTIONS_DATA.map((item) => (
+            <ListItem data={item} key={item.id} isLastItem={item.id === QUESTIONS_DATA.length} />
+          ))}
+        </Column>
+      </Layout>
+    </Column>
   </Box>
 )
 

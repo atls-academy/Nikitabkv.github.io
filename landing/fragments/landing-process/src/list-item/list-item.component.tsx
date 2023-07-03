@@ -1,6 +1,7 @@
 import React       from 'react'
 
 import { Divider } from '@ui/divider'
+import { Column }  from '@ui/layout'
 import { Layout }  from '@ui/layout'
 import { Text }    from '@ui/text'
 
@@ -8,32 +9,36 @@ const ListItem = ({ data, isLastItem }) => {
   const { id, title, text } = data
 
   return (
-    <Layout
-      width={['335px', '1760px']}
-      justifyContent='space-between'
-      flexWrap='wrap'
-      alignItems='center'
-    >
-      <Layout marginTop={[`${id === 1 ? '0' : '28px'}`, '0']}>
-        <Text fontSize={['medium', 'increasedPlus']} color='white' marginRight={['12px', '32px']}>
-          {id}
-        </Text>
-        <Text fontSize={['increasedPlus', 'mediumHuge']} color='white'>
-          {title}
+    <Column>
+      <Layout
+        width={['335px', '1760px']}
+        justifyContent='space-between'
+        flexWrap='wrap'
+        alignItems='center'
+      >
+        <Layout flexBasis={[560]}>
+          <Text fontSize={['medium', 'increasedPlus']} color='white'>
+            {id}
+          </Text>
+          <Layout flexBasis={[12, 32]} />
+          <Text fontSize={['increasedPlus', 'mediumHuge']} color='white'>
+            {title}
+          </Text>
+        </Layout>
+        <Layout flexBasis={[23, 0]} />
+        <Text
+          width={['312px', '560px']}
+          fontSize={['regular', 'increasedPlus']}
+          color='white'
+          lineHeight='140%'
+        >
+          {text}
         </Text>
       </Layout>
-      <Text
-        width='650px'
-        fontSize={['regular', 'increasedPlus']}
-        color='white'
-        marginTop={['8px', '48px']}
-        marginBottom={['28px', '48px']}
-        lineHeight='140%'
-      >
-        {text}
-      </Text>
+      {isLastItem ? '' : <Layout width='100%' flexBasis={[28, 48]} />}
       {isLastItem ? '' : <Divider weight={1} color='white' />}
-    </Layout>
+      {isLastItem ? '' : <Layout width='100%' flexBasis={[28, 48]} />}
+    </Column>
   )
 }
 

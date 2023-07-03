@@ -43,18 +43,13 @@ const LandingProcess = () => (
   <Box
     background='gray'
     width='100%'
-    height={['1587px', '2648px']}
     justifyContent='center'
     flexDirection='column'
     alignItems='center'
   >
-    <Column height='728px' marginTop={['64px', '120px']} marginBottom={['32px', '224px']}>
-      <Column
-        width={['375px', '1760px']}
-        justifyContent='center'
-        alignSelf='center'
-        alignItems='center'
-      >
+    <Layout flexBasis={[64, 160]} />
+    <Column>
+      <Column justifyContent='center' alignSelf='center' alignItems='center'>
         <Box
           position='absolute'
           width='400px'
@@ -70,9 +65,10 @@ const LandingProcess = () => (
         ))}
       </Column>
     </Column>
-    <Column width='100%' height={['auto', '482px']}>
+    <Layout width='100%' flexBasis={[56, 235]} />
+    <Column width='100%'>
       <Divider weight={1} color='white' />
-      <Layout marginTop={['36px', '64px']} marginBottom={['36px', '64px']}>
+      <Layout>
         <Text
           fontSize={['hugePlus', 'largest']}
           color='white'
@@ -82,7 +78,7 @@ const LandingProcess = () => (
           JAVASCRIPT — HTML — CSS — SASS — VANILLA JS — JADE — JAVASCRIPT —
         </Text>
       </Layout>
-      <Layout marginBottom={['36px', '64px']}>
+      <Layout>
         <Text
           fontSize={['hugePlus', 'largest']}
           color='white'
@@ -94,33 +90,29 @@ const LandingProcess = () => (
       </Layout>
       <Divider weight={1} color='white' />
     </Column>
-    <Column
-      width={['335px', '960px']}
-      alignItems='center'
-      justifyContent='flex-start'
-      marginTop={['56px', '224px']}
-    >
+    <Layout width='100%' flexBasis={[56, 235]} />
+    <Column alignItems='center' justifyContent='flex-start'>
       <Text color='white' fontSize={['11px', 'regular']}>
         ПРОЦЕСС СОЗДАНИЯ
       </Text>
+      <Layout width='100%' flexBasis={[16, 24]} />
       <Text
-        height='92px'
         width={['auto', '890px']}
         color='white'
         fontSize={['increasedPlus', 'mediumHuge']}
         textAlign='center'
-        marginTop={['16px', '24px']}
-        marginBottom={['24px', '50px']}
       >
         Любой процесс перестаёт быть сложным, когда знаешь как он протекает
       </Text>
-      <Box width={['auto', '960px']} height={['400px', '633px']}>
+      <Layout width='100%' flexBasis={[24, 50]} />
+
+      <Box width={['auto', '960px']}>
         <Column justifyContent='space-between' alignItems='center'>
           <Box
             width={['155px', '960px']}
             height={['323px', '516px']}
             padding='12px'
-            background={['', 'white']}
+            background={['black', 'white']}
             border={['2px', '']}
           >
             <Box
@@ -134,21 +126,24 @@ const LandingProcess = () => (
               <PlugIcon width='720px' height='540px' />
             </Box>
           </Box>
+          <Layout flexBasis={[32, 41]} />
           <Layout width={['335px', '960px']} justifyContent='space-between' alignItems='center'>
             <LeftArrowIcon />
             <Text
               color='white'
               fontSize={['normal', 'extra']}
-              width={['123px', 'auto']}
+              width={['175px', 'auto']}
               textAlign='center'
             >
               Формирование системы базовых фрагментов и компонентов
             </Text>
             <RightArrowIcon />
           </Layout>
+          <Layout flexBasis={[5, 19]} />
         </Column>
       </Box>
     </Column>
+    <Layout flexBasis={[70, 160]} />
   </Box>
 )
 

@@ -3,17 +3,12 @@ import React        from 'react'
 import { PlugIcon } from '@ui/icon'
 import { Box }      from '@ui/layout'
 import { Column }   from '@ui/layout'
-import { Layout }        from '@ui/layout'
+import { Layout }   from '@ui/layout'
 import { Text }     from '@ui/text'
 
 const TextComponent = () => (
   <Column width={['335px', '1460px']}>
-    <Text
-      color='white'
-      fontSize={['increased', 'veryHuge']}
-      display='block'
-      lineHeight='140%'
-    >
+    <Text color='white' fontSize={['increased', 'veryHuge']} display='block' lineHeight='140%'>
       Digital становится всё более многолюдным, востребованность по направлениям при этом{' '}
       <Text display={['inline', 'none']}>
         <br />
@@ -34,13 +29,8 @@ const TextComponent = () => (
         <PlugIcon />
       </Box>
     </Text>
-      <Layout flexBasis={[17, 40]}/>
-    <Text
-      color='white'
-      fontSize={['increased', 'veryHuge']}
-      display='block'
-      lineHeight='140%'
-    >
+    <Layout flexBasis={[17, 40]} />
+    <Text color='white' fontSize={['increased', 'veryHuge']} display='block' lineHeight='140%'>
       Atlantis Academy обучает и формирует инженеров и архитекторов, а не программистов и дизайнеров{' '}
       <Box display={['none', 'inline']} position='relative' top='6px'>
         <PlugIcon />

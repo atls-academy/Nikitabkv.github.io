@@ -9,8 +9,8 @@ const Page = () => (
   <>
     <LandingHero />
     <LandingCourses />
-    {/*<LandingProcess />*/}
-    {/*<LandingFaq />*/}
+    <LandingProcess />
+    <LandingFaq />
   </>
 )
 
