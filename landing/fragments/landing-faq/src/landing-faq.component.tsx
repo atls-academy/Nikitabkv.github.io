@@ -65,6 +65,7 @@ const LandingFaq = () => (
           ))}
         </Column>
       </Layout>
+      <Layout flexBasis={[0, 160]} />
     </Column>
   </Box>
 )

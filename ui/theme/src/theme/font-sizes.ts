@@ -12,6 +12,8 @@ const fontSizes = {
   mediumHuge: 40,
   veryHuge: 44,
   hugePlus: 46,
+  hugeExtra: 46,
+  bigNum: 56,
   largest: 80,
   XL: 96,
 }
