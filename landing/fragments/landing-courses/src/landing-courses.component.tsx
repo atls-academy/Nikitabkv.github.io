@@ -4,7 +4,6 @@ import { FormattedMessage } from 'react-intl'
 import { Divider }          from '@ui/divider'
 import { Box }              from '@ui/layout'
 import { Column }           from '@ui/layout'
-import { Layout }           from '@ui/layout'
 import { Row }              from '@ui/layout'
 import { Text }             from '@ui/text'
 
@@ -36,7 +35,7 @@ const LandingCourses = () => (
         </Text>
         <Box flexBasis={[20, 0]} display={['flex', 'none']} />
         <Text fontSize={['increased', 'huge']} width={['335px', '559px']} lineHeight='high'>
-          <FormattedMessage id='AboutEfficiencyCourses'/>
+          <FormattedMessage id='AboutEfficiencyCourses' />
         </Text>
       </Row>
       <Box flexBasis={[56, 80]} />

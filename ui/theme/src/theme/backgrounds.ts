@@ -5,4 +5,4 @@ const background = {
   plug: 'rgba(66,66,66,0.95)',
 }
 
-export {background}
+export { background }

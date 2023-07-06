@@ -1,5 +1,5 @@
 const LOCALES = {
-    RU: 'ru-RU',
+  RU: 'ru-RU',
 }
 
-export {LOCALES}
+export { LOCALES }
