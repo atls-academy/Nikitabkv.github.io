@@ -50,6 +50,7 @@ const LandingHero = () => (
             fontSize={['regular', 'increased']}
             lineHeight='high'
             display={['inline-flex', 'none']}
+            whiteSpace='pre-line'
           >
             <FormattedMessage id='SloganHeroMobile' />
           </Text>

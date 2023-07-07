@@ -1,17 +1,12 @@
-import { LOCALES } from './locales'
-
-const MESSAGES = {
-  [LOCALES.RU]: {
+const messages = {
+  ru: {
     TitleFirstHero: 'Обучаем профессионалов',
     TitleSecondHero: 'для революции в',
     ITHero: 'IT',
     SloganHero:
       'Мы не учим программированию и дизайну, мы учим мышлению, способному реализовывывать невозможные идеи.',
     SloganHeroMobile:
-      'Мы не учим программированию и дизайну,' +
-      ' ' +
-      ' ' +
-      'мы учим мышлению способному реализовывывать невозможные идеи.',
+      'Мы не учим программированию и дизайну, \n мы учим мышлению способному реализовывывать невозможные идеи.',
 
     FirstTextAbout: 'Digital становится всё более многолюдным, востребованность по ',
     SecondTextAbout: 'направлениям при этом не снижается',
@@ -20,14 +15,8 @@ const MESSAGES = {
     SecondParagraphFirstTextAbout:
       'Atlantis Academy обучает и формирует инженеров и архитекторов, а не ',
     SecondParagraphSecondTextAbout: 'программистов и дизайнеров',
-
-    FirstParagraphFirstTextAboutMobile:
-      'Digital становится всё более многолюдным, востребованность по направлениям при этом',
-    FirstParagraphSecondTextAboutMobile:
-      'не снижается. Но специалистов, готовых нести ответсвенность',
-    FirstParagraphSecondThirdAboutMobile: 'за свои решения по прежднему мало. ',
-    SecondParagraphFirstTextAboutMobile: 'Atlantis Academy формирует инженеров и архитекторов,',
-    SecondParagraphSecondTextAboutMobile: 'а не программистов и дизайнеров',
+    FirstParagraphAboutMobile: 'Digital становится всё более многолюдным, востребованность по направлениям при этом \n не снижается. Но специалистов, готовых нести ответсвенность \n за свои решения по прежднему мало.',
+    SecondParagraphAboutMobile: 'Atlantis Academy формирует инженеров и архитекторов, \n а не программистов и дизайнеров',
 
     TitleCourses: 'Курсы и материалы',
     SubTitleCourses: 'Все материалы',
@@ -45,10 +34,8 @@ const MESSAGES = {
       'Вы изучите фундаментальные знания в ИТ и прокачаетесь  в направлении программирования. Получите востребованную профессию и возможность открыть бизнес в сфере информационных технологий',
     DevelopmentBasicsDescriptionCoursesMobile:
       'Вы изучите фундаментальные знания в ИТ и прокачаетесь в программирование. Получите востребованную профессию и возможность открыть бизнес.',
-    HowUseCourses: 'Как использовать',
-    LibrariesCourses: 'библиотеки',
-    DesignFigmaCourses: 'Дизайн, Figma',
-    MathCourses: 'Математика',
+    HowUseCourses: 'Как использовать \n библиотеки',
+    DesignFigmaCourses: 'Дизайн, Figma \n Математика',
     CardTextCourses:
       'Вы изучите фундаментальные знания в IT и прокачаете нужные для сферы навыки. Мы не собираем большие группы, что позволяет курировать работу каждого студента.',
     CardStudentsCountCourses: '5',
@@ -57,4 +44,4 @@ const MESSAGES = {
   },
 }
 
-export { MESSAGES }
+export { messages }

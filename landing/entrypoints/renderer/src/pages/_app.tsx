@@ -3,11 +3,10 @@ import { IntlProvider }  from 'react-intl'
 
 import { ThemeProvider } from '@ui/theme'
 
-import { LOCALES }       from '../locale/locales'
-import { MESSAGES }      from '../locale/messages'
+import { messages }      from '../messages/messages'
 
 const MyApp = ({ Component, pageProps, props }) => (
-  <IntlProvider messages={MESSAGES[LOCALES.RU]} locale={LOCALES.RU} defaultLocale={LOCALES.RU}>
+  <IntlProvider messages={messages.ru} locale='ru-RU'>
     <ThemeProvider>
       <Component {...pageProps} {...props} />
     </ThemeProvider>

@@ -69,13 +69,11 @@ const AboutCourses = () => (
       <Box flexBasis={[36, 112]} />
 
       <Row width={['375px', '1160px']} flexBasis={[46, 156]}>
-        <Text width={['228px', '496px']} fontSize={['increased', 'mediumHuge']}>
-          <FormattedMessage id='HowUseCourses' /> <br />
-          <FormattedMessage id='LibrariesCourses' />
+        <Text width={['228px', '496px']} fontSize={['increased', 'mediumHuge']} whiteSpace='pre-line'>
+          <FormattedMessage id='HowUseCourses' />
         </Text>
-        <Text width={['228px', '496px']} fontSize={['increased', 'mediumHuge']}>
-          <FormattedMessage id='DesignFigmaCourses' /> <br />
-          <FormattedMessage id='MathCourses' />
+        <Text width={['228px', '496px']} fontSize={['increased', 'mediumHuge']} whiteSpace='pre-line'>
+          <FormattedMessage id='DesignFigmaCourses' />
         </Text>
       </Row>
     </Column>

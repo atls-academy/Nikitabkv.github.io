@@ -9,9 +9,11 @@
     "@ui/text": "workspace:0.0.1"
   },
   "devDependencies": {
-    "react": "^18.2.0"
+    "react": "^18.2.0",
+    "react-intl": "^6.4.4"
   },
   "peerDependencies": {
-    "react": "*"
+    "react": "*",
+    "react-intl": "*"
   }
 }
