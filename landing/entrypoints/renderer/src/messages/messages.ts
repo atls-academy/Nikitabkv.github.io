@@ -15,8 +15,10 @@ const messages = {
     SecondParagraphFirstTextAbout:
       'Atlantis Academy обучает и формирует инженеров и архитекторов, а не ',
     SecondParagraphSecondTextAbout: 'программистов и дизайнеров',
-    FirstParagraphAboutMobile: 'Digital становится всё более многолюдным, востребованность по направлениям при этом \n не снижается. Но специалистов, готовых нести ответсвенность \n за свои решения по прежднему мало.',
-    SecondParagraphAboutMobile: 'Atlantis Academy формирует инженеров и архитекторов, \n а не программистов и дизайнеров',
+    FirstParagraphAboutMobile:
+      'Digital становится всё более многолюдным, востребованность по направлениям при этом \n не снижается. Но специалистов, готовых нести ответсвенность \n за свои решения по прежднему мало.',
+    SecondParagraphAboutMobile:
+      'Atlantis Academy формирует инженеров и архитекторов, \n а не программистов и дизайнеров',
 
     TitleCourses: 'Курсы и материалы',
     SubTitleCourses: 'Все материалы',

@@ -3,15 +3,17 @@ import { FormattedMessage } from 'react-intl'
 
 import { PlugIcon }         from '@ui/icon'
 import { Box }              from '@ui/layout'
-import { Column, Row }           from '@ui/layout'
+import { Layout }      from '@ui/layout'
+import { Column }           from '@ui/layout'
+import { Row }              from '@ui/layout'
 import { Space }            from '@ui/text'
 import { Text }             from '@ui/text'
 
 const LandingAbout = () => (
   <Box background='gray' color='white' justifyContent={['center', 'flex-start']}>
-    <Box flexBasis={[0, 230]} />
+    <Layout flexBasis={[0, 230]} />
     <Column flexBasis={[335, 1460]}>
-      <Box flexBasis={[64, 160]} />
+      <Layout flexBasis={[64, 160]} />
 
       <Column display={['none', 'flex']}>
         <Row flexWrap='wrap'>
@@ -38,7 +40,7 @@ const LandingAbout = () => (
           </Text>
         </Row>
 
-        <Box flexBasis={[20, 40]} />
+        <Layout flexBasis={[20, 40]} />
 
         <Row flexWrap='wrap'>
           <Text fontSize={['increased', 'veryHuge']} lineHeight='high'>
@@ -67,7 +69,7 @@ const LandingAbout = () => (
           </Text>
         </Column>
       </Column>
-      <Box flexBasis={[64, 160]} />
+      <Layout flexBasis={[64, 160]} />
     </Column>
   </Box>
 )

@@ -22,19 +22,19 @@ const LandingHeader = () => (
           ACADEMY
         </Text>
       </Row>
-      <Box flexBasis={20} />
+      <Layout flexBasis={20} />
       <Row width={200} justifyContent='center'>
         <Text color='white' fontSize='medium'>
           КУРСЫ
         </Text>
       </Row>
-      <Box flexBasis={20} />
+      <Layout flexBasis={20} />
       <Row width={200} justifyContent='center'>
         <Text color='white' fontSize='medium'>
           ОБУЧЕНИЕ
         </Text>
       </Row>
-      <Box flexBasis={20} />
+      <Layout flexBasis={20} />
       <Row width={200} justifyContent='center'>
         <Text color='white' fontSize='medium'>
           FAQ
