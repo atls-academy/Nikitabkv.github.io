@@ -3,7 +3,7 @@ import { FormattedMessage } from 'react-intl'
 
 import { PlugIcon }         from '@ui/icon'
 import { Box }              from '@ui/layout'
-import { Layout }      from '@ui/layout'
+import { Layout }           from '@ui/layout'
 import { Column }           from '@ui/layout'
 import { Row }              from '@ui/layout'
 import { Space }            from '@ui/text'
@@ -16,58 +16,48 @@ const LandingAbout = () => (
       <Layout flexBasis={[64, 160]} />
 
       <Column display={['none', 'flex']}>
-        <Row flexWrap='wrap'>
+        <Row flexWrap='wrap' alignItems='center'>
           <Text fontSize={['increased', 'veryHuge']} lineHeight='high'>
             <FormattedMessage id='FirstTextAbout' />
           </Text>
           <Text fontSize={['increased', 'veryHuge']} lineHeight='high'>
             <FormattedMessage id='SecondTextAbout' />
-            <Box display={['none', 'inline']} position='relative' top='6px'>
-              <Space count={3} />
-              <PlugIcon />
-              <Space count={3} />
-            </Box>
           </Text>
+          <Space count={9} />
+          <PlugIcon width={40} height={40} />
+          <Space count={9} />
           <Text fontSize={['increased', 'veryHuge']} lineHeight='high'>
             <FormattedMessage id='ThirdTextAbout' />
           </Text>
           <Text fontSize={['increased', 'veryHuge']} lineHeight='high'>
             <FormattedMessage id='FourthTextAbout' />
-            <Box display={['none', 'inline']} position='relative' top='6px'>
-              <Space count={6} />
-              <PlugIcon />
-            </Box>
           </Text>
+          <Space count={18} />
+          <PlugIcon width={40} height={40} />
         </Row>
 
         <Layout flexBasis={[20, 40]} />
 
-        <Row flexWrap='wrap'>
+        <Row flexWrap='wrap' alignItems='center'>
           <Text fontSize={['increased', 'veryHuge']} lineHeight='high'>
             <FormattedMessage id='SecondParagraphFirstTextAbout' />
           </Text>
           <Text fontSize={['increased', 'veryHuge']} lineHeight='high'>
             <FormattedMessage id='SecondParagraphSecondTextAbout' />
-            <Box display={['none', 'inline']} position='relative' top='6px'>
-              <Space count={3} />
-              <PlugIcon />
-            </Box>
           </Text>
+          <Space count={9} />
+          <PlugIcon width={40} height={40} />
         </Row>
       </Column>
 
       <Column display={['flex', 'none']}>
-        <Column>
-          <Text fontSize='increased' lineHeight='high' whiteSpace='pre-line'>
-            <FormattedMessage id='FirstParagraphAboutMobile' />
-          </Text>
-        </Column>
+        <Text fontSize='increased' lineHeight='high' whiteSpace='pre-line'>
+          <FormattedMessage id='FirstParagraphAboutMobile' />
+        </Text>
         <br />
-        <Column>
-          <Text fontSize='increased' lineHeight='high' whiteSpace='pre-line'>
-            <FormattedMessage id='SecondParagraphAboutMobile' />
-          </Text>
-        </Column>
+        <Text fontSize='increased' lineHeight='high' whiteSpace='pre-line'>
+          <FormattedMessage id='SecondParagraphAboutMobile' />
+        </Text>
       </Column>
       <Layout flexBasis={[64, 160]} />
     </Column>
