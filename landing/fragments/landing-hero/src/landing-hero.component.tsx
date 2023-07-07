@@ -6,6 +6,7 @@ import { EmailIcon }        from '@ui/icon'
 import { GitHubIcon }       from '@ui/icon'
 import { TelegramIcon }     from '@ui/icon'
 import { Box }              from '@ui/layout'
+import { Row }              from '@ui/layout'
 import { Column }           from '@ui/layout'
 import { Layout }           from '@ui/layout'
 import { Text }             from '@ui/text'
@@ -22,16 +23,24 @@ const LandingHero = () => (
         <Layout flexBasis={[100, 412]} />
 
         <Column flexBasis={[119, 349]} width={['335px', '1166px']}>
-          <Text fontSize={['largePlus', 'XL']} lineHeight={['high', 'medium']}>
-            <FormattedMessage id='TitleFirstHero' />
-          </Text>
-          <Text fontSize={['largePlus', 'XL']} lineHeight={['high', 'medium']} whiteSpace='nowrap'>
-            <FormattedMessage id='TitleSecondHero' />
+          <Row>
+            <Text fontSize={['largePlus', 'XL']} lineHeight={['high', 'medium']}>
+              <FormattedMessage id='TitleFirstHero' />
+            </Text>
+          </Row>
+          <Row>
+            <Text
+              fontSize={['largePlus', 'XL']}
+              lineHeight={['high', 'medium']}
+              whiteSpace='nowrap'
+            >
+              <FormattedMessage id='TitleSecondHero' />
+            </Text>
             <Layout width={[20, 28]} />
             <Text fontSize={['largePlus', 'largest']} lineHeight={['high', 'default']}>
               <FormattedMessage id='ITHero' />
             </Text>
-          </Text>
+          </Row>
         </Column>
 
         <Layout flexBasis={[24, 48]} />

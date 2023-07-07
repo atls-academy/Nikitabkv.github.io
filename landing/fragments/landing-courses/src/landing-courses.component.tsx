@@ -30,13 +30,17 @@ const LandingCourses = () => (
         justifyContent={['', 'space-between']}
         flexDirection={['column', 'row']}
       >
-        <Text fontSize={['increased', 'huge']} width={['335px', '710px']} lineHeight='high'>
-          <FormattedMessage id='AboutAtlantisCourses' />
-        </Text>
+        <Box>
+          <Text fontSize={['increased', 'huge']} width={['335px', '710px']} lineHeight='high'>
+            <FormattedMessage id='AboutAtlantisCourses' />
+          </Text>
+        </Box>
         <Box flexBasis={[20, 0]} display={['flex', 'none']} />
-        <Text fontSize={['increased', 'huge']} width={['335px', '559px']} lineHeight='high'>
-          <FormattedMessage id='AboutEfficiencyCourses' />
-        </Text>
+        <Box>
+          <Text fontSize={['increased', 'huge']} width={['335px', '559px']} lineHeight='high'>
+            <FormattedMessage id='AboutEfficiencyCourses' />
+          </Text>
+        </Box>
       </Row>
       <Box flexBasis={[56, 80]} />
       <AboutCourses />
