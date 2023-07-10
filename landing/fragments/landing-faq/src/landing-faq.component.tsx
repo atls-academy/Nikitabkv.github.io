@@ -7,36 +7,24 @@ import { Text }     from '@ui/text'
 
 import { ListItem } from './list-item'
 
-const QUESTIONS_DATA = [
+const QUESTIONS_IDS = [
   {
     id: 1,
-    text: 'Подойдёт ли мне профессия?',
-    openText: 'test',
   },
   {
     id: 2,
-    text: 'Подойдёт ли мне профессия?',
-    openText: 'test',
   },
   {
     id: 3,
-    text: 'Подойдёт ли мне профессия?',
-    openText: 'test',
   },
   {
     id: 4,
-    text: 'Подойдёт ли мне профессия?',
-    openText: 'test',
   },
   {
     id: 5,
-    text: 'Подойдёт ли мне профессия?',
-    openText: 'test',
   },
   {
     id: 6,
-    text: 'Подойдёт ли мне профессия?',
-    openText: 'test',
   },
 ]
 
@@ -52,16 +40,20 @@ const LandingFaq = () => (
         alignItems='center'
         flexWrap='wrap'
       >
-        <Text fontSize={['huge', 'XL']}>Вопросы и ответы</Text>
+        <Layout>
+          <Text fontSize={['huge', 'XL']}>Вопросы и ответы</Text>
+        </Layout>
         <Column order={[`1`, `0`]} height='auto'>
           <Layout flexBasis={[44, 0]} />
-          <Text fontSize='increased'>Задать вопрос</Text>
+          <Layout>
+            <Text fontSize='increased'>Задать вопрос</Text>
+          </Layout>
           <Layout flexBasis={[80, 0]} />
         </Column>
         <Column flexBasis='100%'>
           <Layout flexBasis={[0, 80]} display={['none', 'flex']} />
-          {QUESTIONS_DATA.map((item) => (
-            <ListItem data={item} key={item.id} isLastItem={item.id === QUESTIONS_DATA.length} />
+          {QUESTIONS_IDS.map((item) => (
+            <ListItem data={item} key={item.id} isLastItem={item.id === QUESTIONS_IDS.length} />
           ))}
         </Column>
       </Layout>

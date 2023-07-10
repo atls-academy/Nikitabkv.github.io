@@ -1477,8 +1477,10 @@ __metadata:
     "@ui/layout": "workspace:0.0.1"
     "@ui/text": "workspace:0.0.1"
     react: "npm:^18.2.0"
+    react-intl: "npm:^6.4.4"
   peerDependencies:
     react: "*"
+    react-intl: "*"
   languageName: unknown
   linkType: soft
 
