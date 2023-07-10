@@ -44,20 +44,20 @@ const messages = {
     CardStudentsTextCourses: 'студентов обучаются в одной практической группе',
     ProcessCourses: 'Процесс поступления',
 
-    ProcessItemTitle1: 'Интеграция в команду',
-    ProcessItemDescription1:
+    ProcessItemTeamIntegration: 'Интеграция в команду',
+    ProcessItemTeamIntegrationDescription:
       'Являясь серым кардиналом Atlantis имеет \n влияние на сферу IT и неограниченные.',
-    ProcessItemTitle2: 'Создание среды',
-    ProcessItemDescription2:
+    ProcessItemCreateEnvironment: 'Создание среды',
+    ProcessItemCreateEnvironmentDescription:
       'Являясь серым кардиналом Atlantis имеет \n влияние на сферу IT и неограниченные.',
-    ProcessItemTitle3: 'Изучение технологий',
-    ProcessItemDescription3:
+    ProcessItemExploringTechnology: 'Изучение технологий',
+    ProcessItemExploringTechnologyDescription:
       'Являясь серым кардиналом Atlantis имеет \n влияние на сферу IT и неограниченные.',
-    ProcessItemTitle4: 'Практика изученого',
-    ProcessItemDescription4:
+    ProcessItemPracticeLearned: 'Практика изученого',
+    ProcessItemPracticeLearnedDescription:
       'Являясь серым кардиналом Atlantis имеет \n влияние на сферу IT и неограниченные.',
-    ProcessItemTitle5: 'Интеграция в проект',
-    ProcessItemDescription5:
+    ProcessItemProjectIntegration: 'Интеграция в проект',
+    ProcessItemProjectIntegrationDescription:
       'Являясь серым кардиналом Atlantis имеет \n влияние на сферу IT и неограниченные.',
 
     TechnologiesFirstList: 'JAVASCRIPT — HTML — CSS — SASS — VANILLA JS — JADE — JAVASCRIPT — HTML',

@@ -7,21 +7,21 @@ import { Box }              from '@ui/layout'
 import { Layout }           from '@ui/layout'
 import { Text }             from '@ui/text'
 
-const ListItem = ({ id, isLastItem }) => (
+const ListItem = ({ id, content, isLastItem }) => (
   <Column>
     <Box className='row' flexDirection={['column', 'row']} color='white'>
       <Box flexBasis={[28, 560]}>
         <Text fontSize={['18px', '24px']}>{id}</Text>
         <Layout flexBasis={[12, 32]} />
         <Text fontSize={['increasedPlus', 'mediumHuge']} whiteSpace='nowrap'>
-          <FormattedMessage id={`ProcessItemTitle${id}`} />
+          <FormattedMessage id={content} />
         </Text>
       </Box>
       <Layout flexBasis={[8, 640]} />
       <Box>
         <Layout flexBasis={[23, 0]} />
         <Text fontSize={['regular', 'increasedPlus']} lineHeight='high' whiteSpace='pre-line'>
-          <FormattedMessage id={`ProcessItemDescription${id}`} />
+          <FormattedMessage id={`${content}Description`} />
         </Text>
       </Box>
     </Box>
