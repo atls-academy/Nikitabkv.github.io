@@ -43,6 +43,32 @@ const messages = {
     CardStudentsCountCourses: '5',
     CardStudentsTextCourses: 'студентов обучаются в одной практической группе',
     ProcessCourses: 'Процесс поступления',
+
+    ProcessItemTitle1: 'Интеграция в команду',
+    ProcessItemDescription1:
+      'Являясь серым кардиналом Atlantis имеет \n влияние на сферу IT и неограниченные.',
+    ProcessItemTitle2: 'Создание среды',
+    ProcessItemDescription2:
+      'Являясь серым кардиналом Atlantis имеет \n влияние на сферу IT и неограниченные.',
+    ProcessItemTitle3: 'Изучение технологий',
+    ProcessItemDescription3:
+      'Являясь серым кардиналом Atlantis имеет \n влияние на сферу IT и неограниченные.',
+    ProcessItemTitle4: 'Практика изученого',
+    ProcessItemDescription4:
+      'Являясь серым кардиналом Atlantis имеет \n влияние на сферу IT и неограниченные.',
+    ProcessItemTitle5: 'Интеграция в проект',
+    ProcessItemDescription5:
+      'Являясь серым кардиналом Atlantis имеет \n влияние на сферу IT и неограниченные.',
+
+    TechnologiesFirstList: 'JAVASCRIPT — HTML — CSS — SASS — VANILLA JS — JADE — JAVASCRIPT — HTML',
+    TechnologiesSecondList: 'ATOM — FIGMA — GITHUB — ATOM — FIGMA — GITHUB — ATOM — FIGMA — GITHUB',
+
+    CreationProcessTitle: 'Процесс создания',
+    CreationProcessDescription:
+      'Любой процесс перестаёт быть сложным, \nкогда знаешь как он протекает',
+    CreationProcessDescriptionMobile:
+      'Любой процесс перестаёт быть сложным, когда знаешь как он протекает',
+    CreationProcessSlider: 'Формирование системы базовых фрагментов и компонентов',
   },
 }
 

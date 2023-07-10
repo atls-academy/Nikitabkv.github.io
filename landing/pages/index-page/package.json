@@ -5,10 +5,12 @@
   "dependencies": {
     "@landing/about-fragment": "workspace:0.0.1",
     "@landing/courses-fragment": "workspace:0.0.1",
+    "@landing/creation-process-fragment": "workspace:0.0.1",
     "@landing/faq-fragment": "workspace:0.0.1",
     "@landing/header-fragment": "workspace:0.0.1",
     "@landing/hero-fragment": "workspace:0.0.1",
-    "@landing/process-fragment": "workspace:0.0.1"
+    "@landing/process-fragment": "workspace:0.0.1",
+    "@landing/technologies-fragment": "workspace:0.0.1"
   },
   "devDependencies": {
     "@types/react": "^18",

@@ -1,5 +1,6 @@
 const fontSizes = {
   atomic: 10,
+  atomicPlus: 11,
   normal: 12,
   regular: 14,
   extra: 16,
