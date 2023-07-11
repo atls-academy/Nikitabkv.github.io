@@ -10,7 +10,7 @@ import { Layout }           from '@ui/layout'
 import { Row }              from '@ui/layout'
 import { Text }             from '@ui/text'
 
-const LandingCreationProcess = () => (
+const LandingSlider = () => (
   <Box
     background='gray'
     color='white'
@@ -19,34 +19,30 @@ const LandingCreationProcess = () => (
     flexDirection='column'
   >
     <Column width={[335, 960]}>
-      <Row justifyContent='center'>
+
+      <Box justifyContent='center'>
         <Text fontSize={['atomicPlus', 'regular']}>
           <FormattedMessage id='CreationProcessTitle' />
         </Text>
-      </Row>
+      </Box>
       <Layout flexBasis={[16, 24]} />
-      <Row justifyContent='center' display={['none', 'flex']}>
+      <Box justifyContent='center' display={['none', 'flex']}>
         <Text fontSize='mediumHuge' whiteSpace='break-spaces' textAlign='center'>
           <FormattedMessage id='CreationProcessDescription' />
         </Text>
-      </Row>
-      <Row justifyContent='center' display={['flex', 'none']}>
+      </Box>
+      <Box justifyContent='center' display={['flex', 'none']}>
         <Text fontSize='increasedPlus' textAlign='center'>
           <FormattedMessage id='CreationProcessDescriptionMobile' />
         </Text>
-      </Row>
+      </Box>
+
       <Layout flexBasis={[24, 50]} />
     </Column>
 
     <Column width={[335, 960]} alignItems='center'>
       <Box width={['159px', '100%']} background='white' padding={['2px', '12px']}>
-        <Box
-          flexBasis={[936]}
-          height={[323, 516]}
-          background='black'
-          justifyContent='center'
-          alignItems='center'
-        >
+        <Box flexBasis={[936]} height={[323, 516]} background='black' justifyContent='center' alignItems='center'>
           <PlugIcon height='100%' width='100%' />
         </Box>
       </Box>
@@ -68,4 +64,4 @@ const LandingCreationProcess = () => (
   </Box>
 )
 
-export { LandingCreationProcess }
+export { LandingSlider }

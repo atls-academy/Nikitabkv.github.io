@@ -1,5 +1,5 @@
 {
-  "name": "@landing/creation-process-fragment",
+  "name": "@landing/slider-fragment",
   "version": "0.0.1",
   "main": "src/index.ts",
   "dependencies": {
