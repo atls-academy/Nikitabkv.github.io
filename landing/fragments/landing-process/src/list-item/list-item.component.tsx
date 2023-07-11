@@ -21,7 +21,7 @@ const ListItem = ({ id, content, isLastItem }) => (
       <Box>
         <Layout flexBasis={[23, 0]} />
         <Text fontSize={['regular', 'increasedPlus']} lineHeight='high' whiteSpace='pre-line'>
-          <FormattedMessage id={`ProcessItemDescription`} />
+          <FormattedMessage id='ProcessItemDescription' />
         </Text>
       </Box>
     </Box>

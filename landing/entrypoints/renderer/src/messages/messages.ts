@@ -49,17 +49,17 @@ const messages = {
     ProcessItemExploringTechnology: 'Изучение технологий',
     ProcessItemPracticeLearned: 'Практика изученого',
     ProcessItemProjectIntegration: 'Интеграция в проект',
-    ProcessItemDescription: 'Являясь серым кардиналом Atlantis имеет \n влияние на сферу IT и неограниченные.',
-
-    TechnologiesFirstList: 'JAVASCRIPT — HTML — CSS — SASS — VANILLA JS — JADE — JAVASCRIPT — HTML',
-    TechnologiesSecondList: 'ATOM — FIGMA — GITHUB — ATOM — FIGMA — GITHUB — ATOM — FIGMA — GITHUB',
+    ProcessItemDescription:
+      'Являясь серым кардиналом Atlantis имеет \n влияние на сферу IT и неограниченные.',
 
     CreationProcessTitle: 'Процесс создания',
-    CreationProcessDescription: 'Любой процесс перестаёт быть сложным, \nкогда знаешь как он протекает',
-    CreationProcessDescriptionMobile: 'Любой процесс перестаёт быть сложным, когда знаешь как он протекает',
+    CreationProcessDescription:
+      'Любой процесс перестаёт быть сложным, \nкогда знаешь как он протекает',
+    CreationProcessDescriptionMobile:
+      'Любой процесс перестаёт быть сложным, когда знаешь как он протекает',
     CreationProcessSlider: 'Формирование системы базовых фрагментов и компонентов',
 
-    FaqQuestion: 'Подойдёт ли мне профессия?'
+    FaqQuestion: 'Подойдёт ли мне профессия?',
   },
 }
 

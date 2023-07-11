@@ -36,7 +36,12 @@ const LandingProcess = () => (
       <Layout flexBasis={[64, 160]} />
       <Column flexBasis={[20, 728]} width={[335, 1760]}>
         {ITEMS_ID.map((item) => (
-          <ListItem id={item.id} content={item.content} isLastItem={ITEMS_ID.length === item.id} key={item.id}/>
+          <ListItem
+            id={item.id}
+            content={item.content}
+            isLastItem={ITEMS_ID.length === item.id}
+            key={item.id}
+          />
         ))}
         <Box
           position='absolute'

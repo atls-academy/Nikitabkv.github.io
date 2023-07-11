@@ -19,7 +19,6 @@ const LandingSlider = () => (
     flexDirection='column'
   >
     <Column width={[335, 960]}>
-
       <Box justifyContent='center'>
         <Text fontSize={['atomicPlus', 'regular']}>
           <FormattedMessage id='CreationProcessTitle' />
@@ -42,7 +41,13 @@ const LandingSlider = () => (
 
     <Column width={[335, 960]} alignItems='center'>
       <Box width={['159px', '100%']} background='white' padding={['2px', '12px']}>
-        <Box flexBasis={[936]} height={[323, 516]} background='black' justifyContent='center' alignItems='center'>
+        <Box
+          flexBasis={[936]}
+          height={[323, 516]}
+          background='black'
+          justifyContent='center'
+          alignItems='center'
+        >
           <PlugIcon height='100%' width='100%' />
         </Box>
       </Box>

@@ -1,12 +1,12 @@
-import React               from 'react'
+import React                from 'react'
 import { FormattedMessage } from 'react-intl'
 
-import { Divider }         from '@ui/divider'
-import { PlusIcon }        from '@ui/icon'
-import { Column }          from '@ui/layout'
-import { Box }             from '@ui/layout'
-import { Layout }          from '@ui/layout'
-import { Text }            from '@ui/text'
+import { Divider }          from '@ui/divider'
+import { PlusIcon }         from '@ui/icon'
+import { Column }           from '@ui/layout'
+import { Box }              from '@ui/layout'
+import { Layout }           from '@ui/layout'
+import { Text }             from '@ui/text'
 
 const ListItem = ({ data, isLastItem }) => (
   <Column justifyContent='space-between' flexWrap='wrap' alignItems='flex-start'>
@@ -34,7 +34,7 @@ const ListItem = ({ data, isLastItem }) => (
 
       <Layout>
         <Text fontSize={['increased', 'huge']} lineHeight={['140%']}>
-          <FormattedMessage id={`FaqQuestion`} />
+          <FormattedMessage id='FaqQuestion' />
         </Text>
       </Layout>
     </Box>
