@@ -34,7 +34,7 @@ const ListItem = ({ data, isLastItem }) => (
 
       <Layout>
         <Text fontSize={['increased', 'huge']} lineHeight={['140%']}>
-          <FormattedMessage id={`FaqQuestion${data.id}`} />
+          <FormattedMessage id={`FaqQuestion`} />
         </Text>
       </Layout>
     </Box>

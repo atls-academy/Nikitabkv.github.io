@@ -45,37 +45,21 @@ const messages = {
     ProcessCourses: 'Процесс поступления',
 
     ProcessItemTeamIntegration: 'Интеграция в команду',
-    ProcessItemTeamIntegrationDescription:
-      'Являясь серым кардиналом Atlantis имеет \n влияние на сферу IT и неограниченные.',
     ProcessItemCreateEnvironment: 'Создание среды',
-    ProcessItemCreateEnvironmentDescription:
-      'Являясь серым кардиналом Atlantis имеет \n влияние на сферу IT и неограниченные.',
     ProcessItemExploringTechnology: 'Изучение технологий',
-    ProcessItemExploringTechnologyDescription:
-      'Являясь серым кардиналом Atlantis имеет \n влияние на сферу IT и неограниченные.',
     ProcessItemPracticeLearned: 'Практика изученого',
-    ProcessItemPracticeLearnedDescription:
-      'Являясь серым кардиналом Atlantis имеет \n влияние на сферу IT и неограниченные.',
     ProcessItemProjectIntegration: 'Интеграция в проект',
-    ProcessItemProjectIntegrationDescription:
-      'Являясь серым кардиналом Atlantis имеет \n влияние на сферу IT и неограниченные.',
+    ProcessItemDescription: 'Являясь серым кардиналом Atlantis имеет \n влияние на сферу IT и неограниченные.',
 
     TechnologiesFirstList: 'JAVASCRIPT — HTML — CSS — SASS — VANILLA JS — JADE — JAVASCRIPT — HTML',
     TechnologiesSecondList: 'ATOM — FIGMA — GITHUB — ATOM — FIGMA — GITHUB — ATOM — FIGMA — GITHUB',
 
     CreationProcessTitle: 'Процесс создания',
-    CreationProcessDescription:
-      'Любой процесс перестаёт быть сложным, \nкогда знаешь как он протекает',
-    CreationProcessDescriptionMobile:
-      'Любой процесс перестаёт быть сложным, когда знаешь как он протекает',
+    CreationProcessDescription: 'Любой процесс перестаёт быть сложным, \nкогда знаешь как он протекает',
+    CreationProcessDescriptionMobile: 'Любой процесс перестаёт быть сложным, когда знаешь как он протекает',
     CreationProcessSlider: 'Формирование системы базовых фрагментов и компонентов',
 
-    FaqQuestion1: 'Подойдёт ли мне профессия?',
-    FaqQuestion2: 'Подойдёт ли мне профессия?',
-    FaqQuestion3: 'Подойдёт ли мне профессия?',
-    FaqQuestion4: 'Подойдёт ли мне профессия?',
-    FaqQuestion5: 'Подойдёт ли мне профессия?',
-    FaqQuestion6: 'Подойдёт ли мне профессия?',
+    FaqQuestion: 'Подойдёт ли мне профессия?'
   },
 }
 
