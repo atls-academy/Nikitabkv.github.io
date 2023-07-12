@@ -1,12 +1,12 @@
+import * as messages     from '../../locales/ru.json'
+
 import React             from 'react'
 import { IntlProvider }  from 'react-intl'
 
 import { ThemeProvider } from '@ui/theme'
 
-import { messages }      from '../messages/messages'
-
 const MyApp = ({ Component, pageProps, props }) => (
-  <IntlProvider messages={messages.ru} locale='ru-RU'>
+  <IntlProvider messages={messages} locale='ru' defaultLocale='ru'>
     <ThemeProvider>
       <Component {...pageProps} {...props} />
     </ThemeProvider>
