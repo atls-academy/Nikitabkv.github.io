@@ -21,18 +21,18 @@ const LandingSlider = () => (
     <Column width={[335, 960]}>
       <Box justifyContent='center'>
         <Text fontSize={['atomicPlus', 'regular']}>
-          <FormattedMessage id='CreationProcessTitle' />
+          <FormattedMessage id='landing_slider.creating_process' />
         </Text>
       </Box>
       <Layout flexBasis={[16, 24]} />
       <Box justifyContent='center' display={['none', 'flex']}>
         <Text fontSize='mediumHuge' whiteSpace='break-spaces' textAlign='center'>
-          <FormattedMessage id='CreationProcessDescription' />
+          <FormattedMessage id='landing_slider.creating_process_description' />
         </Text>
       </Box>
       <Box justifyContent='center' display={['flex', 'none']}>
         <Text fontSize='increasedPlus' textAlign='center'>
-          <FormattedMessage id='CreationProcessDescriptionMobile' />
+          <FormattedMessage id='landing_slider_mobile.creating_process_description' />
         </Text>
       </Box>
 
@@ -58,7 +58,7 @@ const LandingSlider = () => (
         </Box>
         <Row padding={['16px']} justifyContent='center' alignItems='center'>
           <Text fontSize={['extra', 'extra']} lineHeight={['largest']} textAlign='center'>
-            <FormattedMessage id='CreationProcessSlider' />
+            <FormattedMessage id='landing_slider.formation_system_basic_fragments_and_components' />
           </Text>
         </Row>
         <Box padding={['24px 16px']} alignItems='center'>

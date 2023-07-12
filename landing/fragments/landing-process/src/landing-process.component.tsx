@@ -10,23 +10,23 @@ import { ListItem } from './list-item'
 const ITEMS_ID = [
   {
     id: 1,
-    content: 'ProcessItemTeamIntegration',
+    content: 'landing_process.team_integration',
   },
   {
     id: 2,
-    content: 'ProcessItemCreateEnvironment',
+    content: 'landing_process.create_environment',
   },
   {
     id: 3,
-    content: 'ProcessItemExploringTechnology',
+    content: 'landing_process.exploring_technology',
   },
   {
     id: 4,
-    content: 'ProcessItemPracticeLearned',
+    content: 'landing_process.practice_learned',
   },
   {
     id: 5,
-    content: 'ProcessItemProjectIntegration',
+    content: 'landing_process.project_integration',
   },
 ]
 

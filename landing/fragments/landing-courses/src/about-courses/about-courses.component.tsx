@@ -22,7 +22,7 @@ const AboutCourses = () => (
       <Column flexBasis={[129, 40]}>
         <Box>
           <Text fontSize={['increasedPlus', 'mediumHuge']}>
-            <FormattedMessage id='FrontendTitleCourses' />
+            <FormattedMessage id='landing_courses.frontend_engineer' />
           </Text>
         </Box>
         <Layout flexBasis={[12, 16]} />
@@ -33,7 +33,7 @@ const AboutCourses = () => (
             lineHeight='high'
             display={['none', 'inline-flex']}
           >
-            <FormattedMessage id='FrontendDescriptionCourses' />
+            <FormattedMessage id='landing_courses.frontend_description' />
           </Text>
         </Box>
         <Box>
@@ -43,7 +43,7 @@ const AboutCourses = () => (
             lineHeight='largest'
             display={['inline-flex', 'none']}
           >
-            <FormattedMessage id='FrontendDescriptionCoursesMobile' />
+            <FormattedMessage id='landing_courses_mobile.frontend_description' />
           </Text>
         </Box>
       </Column>
@@ -53,7 +53,7 @@ const AboutCourses = () => (
       <Column flexBasis={[129, 40]}>
         <Box>
           <Text fontSize={['increasedPlus', 'mediumHuge']}>
-            <FormattedMessage id='DevelopmentBasicsTitleCourses' />
+            <FormattedMessage id='landing_courses.development_basics' />
           </Text>
         </Box>
         <Layout flexBasis={[12, 16]} />
@@ -64,7 +64,7 @@ const AboutCourses = () => (
             lineHeight='high'
             display={['none', 'inline-flex']}
           >
-            <FormattedMessage id='DevelopmentBasicsDescriptionCourses' />
+            <FormattedMessage id='landing_courses.development_basics_description' />
           </Text>
         </Box>
         <Box>
@@ -74,7 +74,7 @@ const AboutCourses = () => (
             lineHeight='largest'
             display={['inline-flex', 'none']}
           >
-            <FormattedMessage id='DevelopmentBasicsDescriptionCoursesMobile' />
+            <FormattedMessage id='landing_courses_mobile.frontend_description' />
           </Text>
         </Box>
       </Column>
@@ -87,14 +87,14 @@ const AboutCourses = () => (
           fontSize={['increased', 'mediumHuge']}
           whiteSpace='pre-line'
         >
-          <FormattedMessage id='HowUseCourses' />
+          <FormattedMessage id='landing_courses.how_use_libraries' />
         </Text>
         <Text
           width={['228px', '496px']}
           fontSize={['increased', 'mediumHuge']}
           whiteSpace='pre-line'
         >
-          <FormattedMessage id='DesignFigmaCourses' />
+          <FormattedMessage id='landing_courses.design_figma_math' />
         </Text>
       </Row>
     </Column>
@@ -108,7 +108,7 @@ const AboutCourses = () => (
       <Layout flexBasis={[0, 32]} display={['none', 'flex']} />
       <Box>
         <Text fontSize={['regular', 'extra']} lineHeight={['high', 'largest']}>
-          <FormattedMessage id='CardTextCourses' />
+          <FormattedMessage id='landing_courses.card_description' />
         </Text>
       </Box>
       <Layout flexBasis={[0, 74]} display={['none', 'flex']} />
@@ -119,7 +119,7 @@ const AboutCourses = () => (
       <Layout flexBasis={[0, 62]} display={['none', 'flex']} />
       <Box>
         <Text fontSize={['bigNum', 'hugeExtra']} height={[56, 64]}>
-          <FormattedMessage id='CardStudentsCountCourses' />
+          <FormattedMessage id='landing_courses.card_students_count' />
         </Text>
       </Box>
       <Layout flexBasis={[12, 8]} />
@@ -129,13 +129,13 @@ const AboutCourses = () => (
           fontSize={['normal', 'regular']}
           lineHeight={['semiHigh', 'largest']}
         >
-          <FormattedMessage id='CardStudentsTextCourses' />
+          <FormattedMessage id='landing_courses.students_trained_one_group' />
         </Text>
       </Box>
       <Layout flexBasis={[64, 68]} />
       <Box>
         <Text fontSize='increased' display={['none', 'inline-flex']}>
-          <FormattedMessage id='ProcessCourses' />
+          <FormattedMessage id='landing_courses.admission_process' />
         </Text>
       </Box>
     </Column>

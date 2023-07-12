@@ -25,7 +25,7 @@ const LandingHero = () => (
         <Column flexBasis={[119, 349]} width={['335px', '1166px']}>
           <Row>
             <Text fontSize={['largePlus', 'XL']} lineHeight={['high', 'medium']}>
-              <FormattedMessage id='TitleFirstHero' />
+              <FormattedMessage id='landing_hero.train_professionals' />
             </Text>
           </Row>
           <Row>
@@ -34,11 +34,11 @@ const LandingHero = () => (
               lineHeight={['high', 'medium']}
               whiteSpace='nowrap'
             >
-              <FormattedMessage id='TitleSecondHero' />
+              <FormattedMessage id='landing_hero.for_revolution' />
             </Text>
             <Layout width={[20, 28]} />
             <Text fontSize={['largePlus', 'largest']} lineHeight={['high', 'default']}>
-              <FormattedMessage id='ITHero' />
+              <FormattedMessage id='landing_hero.it' />
             </Text>
           </Row>
         </Column>
@@ -49,19 +49,19 @@ const LandingHero = () => (
 
         <Column flexBasis={[60, 56]} width={['335px', '640px']}>
           <Text
-            fontSize={['regular', 'increased']}
+            fontSize='increased'
             lineHeight='high'
             display={['none', 'inline-flex']}
           >
-            <FormattedMessage id='SloganHero' />
+            <FormattedMessage id='landing_hero.slogan' />
           </Text>
           <Text
-            fontSize={['regular', 'increased']}
+            fontSize='regular'
             lineHeight='high'
             display={['inline-flex', 'none']}
-            whiteSpace='pre-line'
+            whiteSpace='pre'
           >
-            <FormattedMessage id='SloganHeroMobile' />
+            <FormattedMessage id='landing_hero_mobile.slogan' />
           </Text>
         </Column>
 

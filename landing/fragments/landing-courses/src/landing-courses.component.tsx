@@ -16,10 +16,10 @@ const LandingCourses = () => (
       <Box flexBasis={[64, 160]} />
       <Row flexBasis={[96, 115]} justifyContent={['', 'space-between']} alignItems={['', 'center']}>
         <Text fontSize={['mediumHuge', 'XL']}>
-          <FormattedMessage id='TitleCourses' />
+          <FormattedMessage id='landing_courses.courses_and_materials' />
         </Text>
         <Text fontSize={['', 'increased']} display={['none', 'inline-flex']}>
-          <FormattedMessage id='SubTitleCourses' />
+          <FormattedMessage id='landing_courses.all_materials' />
         </Text>
       </Row>
       <Box flexBasis={[40, 80]} />
@@ -32,13 +32,13 @@ const LandingCourses = () => (
       >
         <Box>
           <Text fontSize={['increased', 'huge']} width={['335px', '710px']} lineHeight='high'>
-            <FormattedMessage id='AboutAtlantisCourses' />
+            <FormattedMessage id='landing_courses.about_atlantis' />
           </Text>
         </Box>
         <Box flexBasis={[20, 0]} display={['flex', 'none']} />
         <Box>
           <Text fontSize={['increased', 'huge']} width={['335px', '559px']} lineHeight='high'>
-            <FormattedMessage id='AboutEfficiencyCourses' />
+            <FormattedMessage id='landing_courses.about_efficiency' />
           </Text>
         </Box>
       </Row>
@@ -46,7 +46,7 @@ const LandingCourses = () => (
       <AboutCourses />
       <Box flexBasis={[12, 0]} display={['flex', 'none']} />
       <Text fontSize='extra' display={['inline-flex', 'none']}>
-        <FormattedMessage id='SubTitleCourses' />
+        <FormattedMessage id='landing_courses.admission_process' />
       </Text>
       <Box flexBasis={[64, 160]} />
     </Column>

@@ -18,19 +18,19 @@ const LandingAbout = () => (
       <Column display={['none', 'flex']}>
         <Row flexWrap='wrap' alignItems='center'>
           <Text fontSize={['increased', 'veryHuge']} lineHeight='high'>
-            <FormattedMessage id='FirstTextAbout' />
+            <FormattedMessage id='landing_about.digital_getting_bigger' />
           </Text>
           <Text fontSize={['increased', 'veryHuge']} lineHeight='high'>
-            <FormattedMessage id='SecondTextAbout' />
+            <FormattedMessage id='landing_about.not_decrease_in_directions' />
           </Text>
           <Space count={9} />
           <PlugIcon width={40} height={40} />
           <Space count={9} />
           <Text fontSize={['increased', 'veryHuge']} lineHeight='high'>
-            <FormattedMessage id='ThirdTextAbout' />
+            <FormattedMessage id='landing_about.specialists_who_ready' />
           </Text>
           <Text fontSize={['increased', 'veryHuge']} lineHeight='high'>
-            <FormattedMessage id='FourthTextAbout' />
+            <FormattedMessage id='landing_about.take_responsibility' />
           </Text>
           <Space count={18} />
           <PlugIcon width={40} height={40} />
@@ -40,10 +40,10 @@ const LandingAbout = () => (
 
         <Row flexWrap='wrap' alignItems='center'>
           <Text fontSize={['increased', 'veryHuge']} lineHeight='high'>
-            <FormattedMessage id='SecondParagraphFirstTextAbout' />
+            <FormattedMessage id='landing_about.atlantis_academy_study' />
           </Text>
           <Text fontSize={['increased', 'veryHuge']} lineHeight='high'>
-            <FormattedMessage id='SecondParagraphSecondTextAbout' />
+            <FormattedMessage id='landing_about.programmers_and_designers' />
           </Text>
           <Space count={9} />
           <PlugIcon width={40} height={40} />
@@ -52,11 +52,11 @@ const LandingAbout = () => (
 
       <Column display={['flex', 'none']}>
         <Text fontSize='increased' lineHeight='high' whiteSpace='pre-line'>
-          <FormattedMessage id='FirstParagraphAboutMobile' />
+          <FormattedMessage id='landing_about_mobile.first_paragraph_about_mobile' />
         </Text>
         <br />
         <Text fontSize='increased' lineHeight='high' whiteSpace='pre-line'>
-          <FormattedMessage id='SecondParagraphAboutMobile' />
+          <FormattedMessage id='landing_about_mobile.second_paragraph_about_mobile' />
         </Text>
       </Column>
       <Layout flexBasis={[64, 160]} />
