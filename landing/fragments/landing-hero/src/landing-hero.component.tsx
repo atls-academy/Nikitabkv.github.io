@@ -48,11 +48,7 @@ const LandingHero = () => (
         <Layout flexBasis={[24, 48]} />
 
         <Column flexBasis={[60, 56]} width={['335px', '640px']}>
-          <Text
-            fontSize='increased'
-            lineHeight='high'
-            display={['none', 'inline-flex']}
-          >
+          <Text fontSize='increased' lineHeight='high' display={['none', 'inline-flex']}>
             <FormattedMessage id='landing_hero.slogan' />
           </Text>
           <Text
