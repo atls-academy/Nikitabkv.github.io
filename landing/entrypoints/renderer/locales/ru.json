@@ -1,0 +1,50 @@
+{
+  "landing_hero.train_professionals": "Обучаем профессионалов",
+  "landing_hero.for_revolution": "для революции в",
+  "landing_hero.it": "IT",
+  "landing_hero.slogan": "Мы не учим программированию и дизайну, мы учим мышлению, способному реализовывывать невозможные идеи.",
+  "landing_hero_mobile.slogan": "Мы не учим программированию и дизайну, \nмы учим мышлению, способному реализовывывать \nневозможные идеи.",
+
+  "landing_about.digital_getting_bigger": "Digital становится всё более многолюдным, востребованность по ",
+  "landing_about.not_decrease_in_directions": "направлениям при этом не снижается",
+  "landing_about.specialists_who_ready": "Но специалистов, готовых",
+  "landing_about.take_responsibility": "нести ответсвенность за свои решения по-прежнему мало",
+
+  "landing_about_mobile.first_paragraph_about_mobile": "Digital становится всё более многолюдным, востребованность по направлениям при этом \n не снижается. Но специалистов, готовых нести ответсвенность \n за свои решения по прежднему мало.",
+  "landing_about_mobile.second_paragraph_about_mobile": "Atlantis Academy формирует инженеров и архитекторов, \n а не программистов и дизайнеров",
+
+  "landing_about.atlantis_academy_study": "Atlantis Academy обучает и формирует инженеров и архитекторов, а не ",
+  "landing_about.programmers_and_designers": "программистов и дизайнеров",
+
+  "landing_courses.courses_and_materials": "Курсы и материалы",
+  "landing_courses.all_materials": "Все материалы",
+
+  "landing_courses.about_atlantis": "Являясь серым кардиналом, Atlantis имеет влияние на сферу IT и неограниченные возможности в применении навыков.",
+  "landing_courses.about_efficiency": "Эффективность обучения заметно вырастает благодаря практике на существующих проектах.",
+  "landing_courses.frontend_engineer": "Frontend Engineer",
+  "landing_courses.frontend_description": "Вы изучите фундаментальные знания в ИТ и прокачаетесь  в направлении программирования. Получите востребованную профессию и возможность открыть бизнес в сфере информационных технологий",
+  "landing_courses_mobile.frontend_description": "Вы изучите фундаментальные знания в ИТ и прокачаетесь в направлении программирования. Получите востребованную профессию и возможность открыть бизнес в сфере информационных технологий",
+  "landing_courses.development_basics": "Основы разработки",
+  "landing_courses.development_basics_description": "Вы изучите фундаментальные знания в ИТ и прокачаетесь  в направлении программирования. Получите востребованную профессию и возможность открыть бизнес в сфере информационных технологий",
+  "landing_courses_mobile.development_basics_description": "Вы изучите фундаментальные знания в ИТ и прокачаетесь в направлении программирования. Получите востребованную профессию и возможность открыть бизнес в сфере информационных технологий",
+  "landing_courses.how_use_libraries": "Как использовать \n библиотеки",
+  "landing_courses.design_figma_math": "Дизайн, Figma \n Математика",
+  "landing_courses.card_description": "Вы изучите фундаментальные знания в IT и прокачаете нужные для сферы навыки. Мы не собираем большие группы, что позволяет курировать работу каждого студента.",
+  "landing_courses.card_students_count": "5",
+  "landing_courses.students_trained_one_group": "студентов обучаются в одной практической группе",
+  "landing_courses.admission_process": "Процесс поступления",
+
+  "landing_process.team_integration": "Интеграция в команду",
+  "landing_process.create_environment": "Создание среды",
+  "landing_process.exploring_technology": "Изучение технологий",
+  "landing_process.practice_learned": "Практика изученого",
+  "landing_process.project_integration": "Интеграция в проект",
+  "landing_process.description": "Являясь серым кардиналом Atlantis имеет \n влияние на сферу IT и неограниченные.",
+
+  "landing_slider.creating_process": "Процесс создания",
+  "landing_slider.creating_process_description": "Любой процесс перестаёт быть сложным, \nкогда знаешь как он протекает",
+  "landing_slider_mobile.creating_process_description": "Любой процесс перестаёт быть сложным, когда знаешь как он протекает",
+  "landing_slider.formation_system_basic_fragments_and_components": "Формирование системы базовых фрагментов и компонентов",
+
+  "landing_faq.question": "Подойдёт ли мне профессия?"
+}

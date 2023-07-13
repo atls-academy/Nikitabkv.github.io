@@ -1,16 +1,19 @@
-import {User} from './user.interface'
-import {AuthError} from './auth-errors'
+import { AuthError } from './auth-errors'
+import { User }      from './user.interface'
 
-export const logout = (activeUser: User, userList: Array<User>) : string => {
-    const {isAuth} = activeUser
+export const logout = (activeUser: User, userList: Array<User>): string => {
+  const { isAuth } = activeUser
 
-    if (activeUser === null || activeUser === undefined) throw AuthError.ValidationError(`Active user is: ${typeof activeUser}}`)
-    if (!isAuth) throw AuthError.AuthError('User not authorized')
+  if (activeUser === null || activeUser === undefined)
+    throw AuthError.ValidationError(`Active user is: ${typeof activeUser}}`)
+  if (!isAuth) throw AuthError.AuthError('User not authorized')
 
-    const currentUserIndex= userList.findIndex(userItem => userItem.username === activeUser.username)
-    if (currentUserIndex === -1) throw AuthError.ValidationError('User not found')
+  const currentUserIndex = userList.findIndex(
+    (userItem) => userItem.username === activeUser.username
+  )
+  if (currentUserIndex === -1) throw AuthError.ValidationError('User not found')
 
-    // eslint-disable-next-line no-param-reassign
-    userList[currentUserIndex].isAuth = false
-    return userList[currentUserIndex].username
+  // eslint-disable-next-line no-param-reassign
+  userList[currentUserIndex].isAuth = false
+  return userList[currentUserIndex].username
 }

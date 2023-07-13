@@ -1,0 +1,22 @@
+{
+  "name": "@ui/link",
+  "version": "0.0.1",
+  "main": "src/index.ts",
+  "dependencies": {
+    "@atls-ui-parts/link": "0.0.10",
+    "@ui/text": "workspace:0.0.1"
+  },
+  "devDependencies": {
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "next": "^13.4.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "styled-system": "5.1.5"
+  },
+  "peerDependencies": {
+    "@emotion/styled": "*",
+    "react": "*",
+    "styled-system": "*"
+  }
+}
