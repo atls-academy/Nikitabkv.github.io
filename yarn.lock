@@ -818,6 +818,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@emotion/css@npm:*":
+  version: 11.11.2
+  resolution: "@emotion/css@npm:11.11.2"
+  dependencies:
+    "@emotion/babel-plugin": "npm:^11.11.0"
+    "@emotion/cache": "npm:^11.11.0"
+    "@emotion/serialize": "npm:^1.1.2"
+    "@emotion/sheet": "npm:^1.2.2"
+    "@emotion/utils": "npm:^1.2.1"
+  checksum: 796ba778420ab9ce36d1b02373c941103cce7cc5c7b65a51d9135b4f7595f1425736a7e2e029e9405510984aa2c802a42906ac4158f468477b3f5e3fc3d1c1b3
+  languageName: node
+  linkType: hard
+
 "@emotion/css@npm:11.11.0":
   version: 11.11.0
   resolution: "@emotion/css@npm:11.11.0"
