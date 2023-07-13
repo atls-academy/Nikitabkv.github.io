@@ -10,7 +10,7 @@ import { Text }             from '@ui/text'
 import { AboutCourses }     from './about-courses'
 
 const LandingCourses = () => (
-  <Box background='white' justifyContent={['center', 'normal']}>
+  <Box background='white' justifyContent={['center', 'normal']} id='courses'>
     <Box height='100%' flexBasis={[0, 230]} display={['none', 'flex']} />
     <Column flexBasis={[335, 1610]}>
       <Box flexBasis={[64, 160]} />

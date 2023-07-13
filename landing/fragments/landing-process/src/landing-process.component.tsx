@@ -31,7 +31,7 @@ const ITEMS_ID = [
 ]
 
 const LandingProcess = () => (
-  <Box background='gray' justifyContent={['center', 'center']}>
+  <Box background='gray' justifyContent={['center', 'center']} id='process'>
     <Column>
       <Layout flexBasis={[64, 160]} />
       <Column flexBasis={[20, 728]} width={[335, 1760]}>

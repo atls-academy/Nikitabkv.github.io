@@ -29,11 +29,11 @@ const QUESTIONS_IDS = [
 ]
 
 const LandingFaq = () => (
-  <Box background='white' justifyContent={['center', 'flex-start']}>
+  <Box background='white' justifyContent={['center', 'flex-start']} id='faq'>
     <Layout flexBasis={[0, 230]} display={['none', 'flex']} />
     <Column>
       <Layout flexBasis={[80, 160]} />
-      <Layout
+      <Box
         width={['343px', '1610px']}
         flexBasis={['483px', 'auto']}
         justifyContent='space-between'
@@ -56,7 +56,7 @@ const LandingFaq = () => (
             <ListItem data={item} key={item.id} isLastItem={item.id === QUESTIONS_IDS.length} />
           ))}
         </Column>
-      </Layout>
+      </Box>
       <Layout flexBasis={[0, 160]} />
     </Column>
   </Box>
